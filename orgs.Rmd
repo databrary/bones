@@ -2,8 +2,8 @@
 title: "orgs"
 ---
 
-```{r, echo=FALSE}
-knitr::include_graphics("img/people.png")
+```{r, echo=FALSE, fig.align='center', out.width="100%"}
+knitr::include_graphics("img/orgs.png")
 ```
 
 # Purpose
