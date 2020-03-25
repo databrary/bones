@@ -25,6 +25,8 @@ navbar:
     - text: "Support"
       href: support.html
   right:
+    - text: "Notifications"
+      href: notifications.html
     - text: "Avatar"
       menu:
         - text: "Account Settings"

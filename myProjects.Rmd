@@ -2,6 +2,10 @@
 title: "myProjects"
 ---
 
+```{r, echo=FALSE}
+knitr::include_graphics("img/myProjects.png")
+```
+
 # Purpose
 
 This page allows a user to visualize and edit their projects.
@@ -26,10 +30,11 @@ This page allows a user to visualize and edit their projects.
 - [settings](settings.html)
 - [profile](profile.html)
 - [dashboard](landingPageAuth.html)
+- [ProjectCreate](ProjectCreate.html)
 
 # Actions
 
-- Create new projects
+- Create new projects via [ProjectCreate](ProjectCreate.html)
 - Access existing projects
 - Delete projects
 - Edit projects
@@ -38,5 +43,4 @@ This page allows a user to visualize and edit their projects.
 - Get data about projects
 
 # Comments
-
 

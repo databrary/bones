@@ -2,6 +2,10 @@
 title: "register"
 ---
 
+```{r, echo=FALSE, fig.align='center', out.width='50%'}
+knitr::include_graphics("img/register.png")
+```
+
 # Purpose
 
 This page (modal dialog) allows a user to register for Databrary.
@@ -22,6 +26,9 @@ This page (modal dialog) allows a user to register for Databrary.
 - [confirmEmail](confirmEmail.html)
 
 # Actions
+
+- Back to [login](login.html)
+- Register brings up [confirmEmail](confirmEmail.html)
 
 # Comments
 

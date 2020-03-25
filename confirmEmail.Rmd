@@ -2,6 +2,12 @@
 title: "confirmEmail"
 ---
 
+# Purpose
+
+This modal dialog appears after a user registers.
+It informs the user that they need to confirm their registration using the email we just sent to their account.
+The registration confirmation link expires, so this dialog also allows a user to request that a new confirmation email be sent.
+
 # Routes
 
 ## API

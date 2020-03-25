@@ -2,7 +2,7 @@
 title: "login"
 ---
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, out.width="50%", fig.align='center'}
 knitr::include_graphics("img/login.png")
 ```
 
@@ -23,7 +23,16 @@ This page controls site logins.
 
 ## To
 
-- if (userAuthorized == true) {[Authorized Investigator dashboard](landingPageAuth.html)} else {[Unsupervised User dashboard](landingPageNoAuth.html)}
+- [forgotPassword](forgotPassword.html)
+- [register](register.html)
+- dashboard
+
+# Actions
+
+- [forgotPassword](forgotPassword.html)
+- [register](register.html)
+- submitButton
 
 # Comments
 
+ - if (userAuthorized == true) {[Authorized Investigator dashboard](landingPageAuth.html)} else {[Unsupervised User dashboard](landingPageNoAuth.html)}

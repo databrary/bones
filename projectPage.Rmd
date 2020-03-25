@@ -22,12 +22,12 @@ This page is the "face" of individual projects on Databrary.
 ## From
 
 - [dashboard](landingPageAuth.html)
-- [createProject](createProject.html)
+- [ProjectCreate](ProjectCreate.html)
 
 ## To
 
 - editContributors
-- 
+- [copyProject](copyProject.html)
 
 # Actions
 
@@ -37,6 +37,7 @@ This page is the "face" of individual projects on Databrary.
     - Edit contributors
     - Edit data
     - Edit materials
+    - Upload data
 - Download project (if ...)
 - Copy project to... (if ...)
 

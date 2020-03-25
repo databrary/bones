@@ -1,0 +1,34 @@
+---
+title: "uploadFiles"
+---
+
+```{r, echo=FALSE, out.width="25%", fig.pos="center"}
+knitr::include_graphics("img/uploadFileBrowser.png")
+```
+
+# Purpose
+
+This modal allows users to upload files to a Project
+
+# Routes
+
+## API
+
+- databrary.org/project/<id>/upload
+- nyu.databrary.org/project/<id>/upload
+
+## From
+
+- [projectPage](projectPage.html)
+
+## To
+
+- - [projectPage](projectPage.html)
+
+# Actions
+
+- Upload files
+
+# Comments
+
+- Does API call need to specify a "folder" target?

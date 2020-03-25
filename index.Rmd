@@ -40,4 +40,6 @@ This is the Databrary home page.
 
 # Comments
 
+- Should `login` menu item toggle between `login` and `logout` depending on state?
+
 
