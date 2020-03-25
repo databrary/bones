@@ -1,0 +1,28 @@
+---
+title: "applyForAuthorization"
+---
+
+To access Databrary's restricted data, you must apply for authorization from an institution.
+
+# Purpose
+
+This page allows a user to apply for authorization from an institution.
+
+# Routes
+
+## API
+
+## From
+
+- [landingPageNoAuth](landingPageNoAuth.html)
+
+## To
+
+- [applyForAuthorization](applyForAuthorization.html)
+
+# Comments
+
+- if (userAuthorizationPending == TRUE) {show [authorizationPending]()} 
+    - else if (userAuthorized == FALSE) {show [applyForAuthorization](applyForAuthorization.html)]}
+- Do we want to enable a route from [databrary.org/](index.html)?
+    - databrary.org/getAuthorized?

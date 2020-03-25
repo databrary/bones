@@ -1,0 +1,45 @@
+---
+title: "projectPage"
+---
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/projectPage.png")
+```
+
+# Purpose
+
+This page is the "face" of individual projects on Databrary.
+
+# Routes
+
+## API
+
+- databrary.org/project/<id>
+- nyu.databrary.org/project/<id>
+- databrary.org/my/project/<id>
+- nyu.databrary.org/my/project/<id>
+
+## From
+
+- [dashboard](landingPageAuth.html)
+- [createProject](createProject.html)
+
+## To
+
+- editContributors
+- 
+
+# Actions
+
+- Browse project (if (userAuthorized == TRUE && projectShared == TRUE))
+- Edit project (if (userEditPrivilegesOnProject == TRUE))
+    - Edit project data
+    - Edit contributors
+    - Edit data
+    - Edit materials
+- Download project (if ...)
+- Copy project to... (if ...)
+
+# Comments
+
+- Do we keep notion of shared (Public) Volume Overview?

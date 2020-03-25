@@ -1,0 +1,27 @@
+---
+title: "aboutTeam"
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/aboutTeam.png")
+```
+
+# Purpose
+
+This page provides information about Databrary's team.
+
+# Routes
+
+## API
+
+- databrary.org/about/team
+- nyu.databrary.org/about/team
+
+## From
+
+- [databrary.org](index.html)
+
+## To
+
+# Comments
+

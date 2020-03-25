@@ -1,0 +1,29 @@
+---
+title: "login"
+---
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/login.png")
+```
+
+# Purpose
+
+This page controls site logins.
+
+# Routes
+
+## API
+
+- databrary.org/login
+- nyu.databrary.org/login
+
+## From
+
+- [databrary.org](databrary.org.html)
+
+## To
+
+- if (userAuthorized == true) {[Authorized Investigator dashboard](landingPageAuth.html)} else {[Unsupervised User dashboard](landingPageNoAuth.html)}
+
+# Comments
+

@@ -1,0 +1,42 @@
+---
+title: "myProjects"
+---
+
+# Purpose
+
+This page allows a user to visualize and edit their projects.
+
+# Routes
+
+## API
+
+- databrary.org/my/projects
+- nyu.databrary.org/my/projects
+
+## From
+
+- [login](login.html)
+- [databrary.org](index.html)
+- [dashboard](landingPageAuth.html)
+- [people](myPeople.html)
+
+## To
+
+- [people](myPeople.html)
+- [settings](settings.html)
+- [profile](profile.html)
+- [dashboard](landingPageAuth.html)
+
+# Actions
+
+- Create new projects
+- Access existing projects
+- Delete projects
+- Edit projects
+- Share projects (with specific people)
+- Share projects (with Databrary)
+- Get data about projects
+
+# Comments
+
+

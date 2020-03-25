@@ -1,0 +1,33 @@
+---
+title: "thisOrg"
+---
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/thisOrg.png")
+```
+
+# Purpose
+
+This page presents information about a specific institution.
+
+See <https://nyu.databrary.org/party/12>
+
+# Routes
+
+## API
+
+- databrary.org/orgs/<id>
+- nyu.databrary.org/orgs</id>
+
+## From
+
+## To
+
+# Actions
+
+- Browse users
+- Browse shared projects
+- Search for/filter
+
+# Comments
+

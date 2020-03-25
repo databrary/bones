@@ -1,0 +1,48 @@
+name: "Databrary 2.0"
+navbar:
+  title: " "
+  left:
+    - text: "Databrary"
+      href: index.html
+    - text: "Search"
+      href: search.html
+    - text: "News"
+      href: news.html
+    - text: "About"
+      menu:
+        - text: "Databrary"
+          href: aboutDatabrary.html
+        - text: "Project"
+          href: aboutProject.html
+        - text: "Team"
+          href: aboutTeam.html
+    - text: "Community"
+      menu:
+        - text: "People"
+          href: people.html
+        - text: "Organizations"
+          href: orgs.html
+    - text: "Support"
+      href: support.html
+  right:
+    - text: "Avatar"
+      menu:
+        - text: "Account Settings"
+          href: settings.html
+        - text: "My Projects"
+          href: landingPageAuth.html
+        - text: "Logout"
+          href: logout.html
+    - text: "Login"
+      href: login.html
+    - text: "Register"
+      href: register.html
+    - icon: ion-social-github
+      href: https://github.com/databrary
+output_dir: "docs"
+output:
+  html_document:
+    theme: default
+    highlight: textmate
+    include:
+      after_body: footer.html

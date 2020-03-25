@@ -1,0 +1,28 @@
+---
+title: "support"
+---
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/support.png")
+```
+
+# Purpose
+
+This page provides a user access to resources to learn about Databrary or get user support.
+
+# Routes
+
+## API
+
+- databrary.org/support
+- nyu.databrary.org/support
+
+## From
+
+- [databrary.org](index.html)
+
+## To
+
+# Actions
+
+# Comments

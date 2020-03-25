@@ -1,0 +1,37 @@
+---
+title: "account"
+---
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/account.png")
+```
+
+# Purpose
+
+This page allows the user to edit details about their account.
+
+# Routes
+
+## API
+
+- databrary.org/my/settings/account
+- nyu.databrary.org/my/settings/account
+- databrary.org/my/account
+- nyu.databrary.org/account
+
+## From
+
+- [settings](settings.html)
+- [landingPageAuth](landingPageAuth.html)
+- [landingPageNoAuth](landingPageNoAuth.html)
+
+## To
+
+- [profile](profile.html)
+- [account](account.html)
+- [emails](emails.html)
+- [security](security.html)
+
+# Comments
+
+

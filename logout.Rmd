@@ -1,0 +1,16 @@
+---
+title: "logout"
+---
+
+Modal: You are logged out of Databrary.
+
+# Routes
+
+- databrary.org/logout
+- nyu.databrary.org/logout
+
+# From
+
+- [databrary.org](index.html)
+
+# To

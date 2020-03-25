@@ -1,0 +1,34 @@
+---
+title: "people"
+---
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/people.png")
+```
+
+# Purpose
+
+This page presents a gallery of users on Databrary.
+
+See <https://nyu.databrary.org/search?volume=false&f.party_authorization=4&f.party_is_institution=false>
+
+# Routes
+
+## API
+
+- databrary.org/people
+- nyu.databrary.org/people
+- databrary.org/search/people
+- nyu.databrary.org/search/people
+
+## From
+
+## To
+
+# Actions
+
+- Browse
+- Search for/filter
+
+# Comments
+

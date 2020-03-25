@@ -1,0 +1,33 @@
+---
+title: "search"
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/search.png")
+```
+
+# Purpose
+
+This is the main search page.
+Users search for Projects or Files here.
+
+# Routes
+
+## API
+
+- databrary.org/search
+- nyu.databrary.org/search
+
+## From
+
+- [databrary.org](index.html)
+
+## To
+
+# Actions
+
+- Search for/filter Projects
+    - Text or tags
+    - Participant characteristics
+    
+# Comments
