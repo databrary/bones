@@ -28,16 +28,23 @@ This page is the "face" of individual projects on Databrary.
 
 - editContributors
 - [copyProject](copyProject.html)
+- [filesPage](filesPage.html)
 
 # Actions
 
 - Browse project (if (userAuthorized == TRUE && projectShared == TRUE))
 - Edit project (if (userEditPrivilegesOnProject == TRUE))
     - Edit project data
-    - Edit contributors
-    - Edit data
-    - Edit materials
-    - Upload data
+        - Edit contributors
+        - Edit title
+        - Edit description
+        - Edit sharing status
+    - Edit files via [filesPage](filesPage.html)
+        - Edit materials
+        - Upload data
+        - Edit access
+- Bookmark project (for later reference)
+    - Create array of bookmarked projects, show in dashboard/landing page
 - Download project (if ...)
 - Copy project to... (if ...)
 
