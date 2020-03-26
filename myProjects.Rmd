@@ -3,7 +3,7 @@ title: "myProjects"
 ---
 
 ```{r, echo=FALSE}
-knitr::include_graphics("img/myProjects.png")
+knitr::include_graphics("img/myProjects2a_regular.png")
 ```
 
 # Purpose
@@ -38,9 +38,19 @@ This page allows a user to visualize and edit their projects.
 - Access existing projects
 - Delete projects
 - Edit projects
-- Share projects (with specific people)
+- Share projects (with specific people) [ProjectPermissions](myProjectsPermissions.html)
 - Share projects (with Databrary)
-- Get data about projects
+- Get data about projects [Project Audit](myProjectsAudit.html)
 
 # Comments
+
+First-time users will see this:
+```{r, echo=FALSE}
+knitr::include_graphics("img/myProjects2a_firsttime.png")
+```
+
+Users with under 5 projeccrs will see this:
+```{r, echo=FALSE}
+knitr::include_graphics("img/myProjects2a_under5.png")
+```
 

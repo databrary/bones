@@ -1,0 +1,48 @@
+---
+title: "myProjectsAudit"
+---
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/myProjectsAudit.png")
+```
+
+# Purpose
+
+This page allows a user to visualize and edit their project permissions.
+
+# Routes
+
+## API
+
+- ?
+
+## From
+
+- [login](login.html)
+- [databrary.org](index.html)
+- [dashboard](landingPageAuth.html)
+- [people](myPeople.html)
+- [projects](myProjects.html)
+
+## To
+
+- haven't edited this yet
+- [people](myPeople.html)
+- [settings](settings.html)
+- [profile](profile.html)
+- [dashboard](landingPageAuth.html)
+- [ProjectCreate](ProjectCreate.html)
+
+# Actions
+
+- haven't edited this yet
+- Create new projects via [ProjectCreate](ProjectCreate.html)
+- Access existing projects
+- Delete projects
+- Edit projects
+- Share projects (with specific people)
+- Share projects (with Databrary)
+- Get data about projects
+
+# Comments
+
