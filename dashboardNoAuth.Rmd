@@ -1,12 +1,17 @@
 ---
-title: "landingPageAuth"
+title: "my_noAuth"
 subtitle: "*dashboard*"
 ---
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/dashboard_b_firsttime.png")
+```
 
 # Purpose
 
 This is a user's dashboard or primary landing page.
 It is where users land after they log-in from the Databrary home page.
+This page has special features for users who are not authorized.
 
 # Routes
 
@@ -20,10 +25,10 @@ It is where users land after they log-in from the Databrary home page.
 ## From
 
 - [login](login.html)
-- [databrary.org](index.html)
 
 ## To
 
+- [applyForAuthorization](applyForAuthorization.html)
 - [myProjects](myProjects.html)
 - [myPeople](myPeople.html)
 - [settings](settings.html)
@@ -31,13 +36,14 @@ It is where users land after they log-in from the Databrary home page.
 
 # Actions
 
-- Create project(s)
+- Create (private) project(s)
 - Manage people
+- Apply for authorization
 - Edit profile
 - Edit other settings
-- Browse (public + shared) projects on Databrary
+- Browse public projects on Databrary
 - Learn about Databrary
 
 # Comments
 
-- if (userAuthorized == FALSE) {show [landingPageNoAuth](landingPageNoAuth.html)]} else {show [landingPageAuth](landingPageAuth.html))}
+- if (userAuthorized == FALSE) {show [dashboardNoAuth](dashboardNoAuth.html)]} else {show [dashboardAuth](dashboardAuth.html))}
