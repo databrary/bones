@@ -32,6 +32,7 @@ This is the Databrary home page.
     - [orgs](orgs.html)
 - [support](support.html)
 - avatar
+    - [dashboard-auth](dashboardAuth.html) ([dashboard-noAuth](dashboardNoAuth.html))
     - [setttings](settings.html)
     - [myProjects](myProjects.html)
     - [logout](logout.html)
@@ -39,7 +40,7 @@ This is the Databrary home page.
 - [register](register.html)
 
 # Comments
-
+- If user is logged in, should this page direct to databrary/org/my ?
 - Should `login` menu item toggle between `login` and `logout` depending on state?
 
 

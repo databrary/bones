@@ -11,7 +11,7 @@
 
 
 
-<title>myProjects</title>
+<title>DashboardAuth</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -361,23 +361,26 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">myProjects</h1>
+<h1 class="title toc-ignore">DashboardAuth</h1>
+<h3 class="subtitle"><em>dashboard</em></h3>
 
 </div>
 
 
-<p><img src="img/myProjects.png" /><!-- --></p>
+<p><img src="img/dashboard_a_regular.png" /><!-- --></p>
 <div id="purpose" class="section level1">
 <h1>Purpose</h1>
-<p>This page allows a user to visualize and edit their projects.</p>
+<p>This is a user’s dashboard or primary landing page. It is where users land after they log-in from the Databrary home page.</p>
 </div>
 <div id="routes" class="section level1">
 <h1>Routes</h1>
 <div id="api" class="section level2">
 <h2>API</h2>
 <ul>
-<li>databrary.org/my/projects</li>
-<li>nyu.databrary.org/my/projects</li>
+<li>databrary.org/my</li>
+<li>nyu.databrary.org/my</li>
+<li>databrary.org/dashboard</li>
+<li>nyu.databrary.org/dashboard</li>
 </ul>
 </div>
 <div id="from" class="section level2">
@@ -385,35 +388,34 @@ $(document).ready(function () {
 <ul>
 <li><a href="login.html">login</a></li>
 <li><a href="index.html">databrary.org</a></li>
-<li><a href="landingPageAuth.html">dashboard</a></li>
-<li><a href="myPeople.html">people</a></li>
 </ul>
 </div>
 <div id="to" class="section level2">
 <h2>To</h2>
 <ul>
-<li><a href="myPeople.html">people</a></li>
+<li><a href="myProjects.html">myProjects</a></li>
+<li><a href="myPeople.html">myPeople</a></li>
 <li><a href="settings.html">settings</a></li>
 <li><a href="profile.html">profile</a></li>
-<li><a href="landingPageAuth.html">dashboard</a></li>
-<li><a href="ProjectCreate.html">ProjectCreate</a></li>
 </ul>
 </div>
 </div>
 <div id="actions" class="section level1">
 <h1>Actions</h1>
 <ul>
-<li>Create new projects via <a href="ProjectCreate.html">ProjectCreate</a></li>
-<li>Access existing projects</li>
-<li>Delete projects</li>
-<li>Edit projects</li>
-<li>Share projects (with specific people) <a href="myProjectsPermissions.html">ProjectPermissions</a></li>
-<li>Share projects (with Databrary)</li>
-<li>Get data about projects <a href="myProjectsAudit.html">Project Audit</a></li>
+<li>Create project(s)</li>
+<li>Manage people</li>
+<li>Edit profile</li>
+<li>Edit other settings</li>
+<li>Browse (public + shared) projects on Databrary</li>
+<li>Learn about Databrary</li>
 </ul>
 </div>
 <div id="comments" class="section level1">
 <h1>Comments</h1>
+<ul>
+<li>if (userAuthorized == FALSE) {show <a href="dashboardNoAuth.html">dashboardNoAuth</a>]} else {show <a href="dashboardAuth.html">dashboardAuth</a>)}</li>
+</ul>
 </div>
 
 </br>
