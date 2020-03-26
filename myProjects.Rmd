@@ -34,6 +34,7 @@ This page allows a user to visualize and edit their projects.
 
 # Actions
 
+- Browse new projects
 - Create new projects via [ProjectCreate](ProjectCreate.html)
 - Access existing projects
 - Delete projects
