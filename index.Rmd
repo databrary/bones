@@ -33,7 +33,7 @@ This is the Databrary home page.
 - [support](support.html)
 - avatar
     - [dashboard-auth](dashboardAuth.html) ([dashboard-noAuth](dashboardNoAuth.html))
-    - [setttings](settings.html)
+    - [settings](settings.html)
     - [myProjects](myProjects.html)
     - [logout](logout.html)
 - [login](login.html)
