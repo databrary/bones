@@ -2,8 +2,8 @@
 title: "settings"
 ---
 
-```{r, echo=FALSE}
-knitr::include_graphics("img/settings.png")
+```{r, fig.align="center", echo=FALSE}
+knitr::include_graphics("img/settings_profile-onOpening.png")
 ```
 
 # Purpose
@@ -15,7 +15,6 @@ This page allows a user to edit their settings.
 ## API
 
 - databrary.org/my/settings
-- nyu.databrary.org/my/settings
 
 ## From
 
@@ -25,7 +24,19 @@ This page allows a user to edit their settings.
 
 ## To
 
-- [profile](profile.html)
+- [profile](profile.html) 
 - [account](account.html)
 - [emails](emails.html)
 - [security](security.html)
+
+# Actions/Implementations
+
+- *Browse* projects
+  - 'Projects I own'
+
+# Comments
+Once the form is filled in, it will look like this:
+
+```{r, fig.align="center", echo=FALSE}
+knitr::include_graphics("img/settings_profile-filledIn.png")
+```
