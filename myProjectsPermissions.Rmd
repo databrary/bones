@@ -8,7 +8,8 @@ knitr::include_graphics("img/myProjectsPermissions.png")
 
 # Purpose
 
-This page allows a user to visualize and edit their project permissions.
+This page allows a user to visualize and edit project permissions for multiple projects at a time.
+It also allows editing permissions for multiple people at a time.
 
 # Routes
 

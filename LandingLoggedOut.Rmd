@@ -13,29 +13,15 @@ It is where users land **after they log-out**.
 ## API
 
 - databrary.org/my
-- nyu.databrary.org/my
 - databrary.org/dashboard
-- nyu.databrary.org/dashboard
 
 ## From
 
-- [login](login.html)
-- [databrary.org](index.html)
-
 ## To
 
-- [myProjects](myProjects.html)
-- [myPeople](myPeople.html)
-- [settings](settings.html)
-- [profile](profile.html)
+# Actions/Implementations
 
-# Actions
-
-- Create project(s)
-- Manage people
-- Edit profile
-- Edit other settings
-- Browse (public + shared) projects on Databrary
+- Browse
 - Learn about Databrary
 
 # Comments

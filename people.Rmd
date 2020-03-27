@@ -17,9 +17,7 @@ See <https://nyu.databrary.org/search?volume=false&f.party_authorization=4&f.par
 ## API
 
 - databrary.org/people
-- nyu.databrary.org/people
 - databrary.org/search/people
-- nyu.databrary.org/search/people
 
 ## From
 

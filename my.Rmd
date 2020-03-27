@@ -44,11 +44,12 @@ This page allows a user to visualize and edit their projects.
 
 # Comments
 
-- (TODO:Swapnaa) Is this what we've been calling the landing page ([LandingLoggedIn](LandingLoggedIn.html)) or dashboard, or is it the [myProjects](myProjects.html) page? 
+- (TODO:Swapnaa) Is this what we've been calling the landing page ([LandingLoggedIn](LandingLoggedIn.html)) or 'dashboard', or is it the [myProjects](myProjects.html) page? 
 Also, `img/myProjects2a_regular.png` did not get pushed to the repo. 
 I commented this out so the site will render.
 Can we link to draw.io URLs?
 Finally, did you delete the landing page for newly registered (landingNoAuth, landingAuth) users?
+- If this is the 
 
 First-time users will see this:
 ```{r, echo=FALSE}
