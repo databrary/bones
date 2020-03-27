@@ -1,9 +1,9 @@
 ---
-title: "myProjects"
+title: "myProjects??"
 ---
 
 ```{r, echo=FALSE}
-knitr::include_graphics("img/myProjects2a_regular.png")
+#knitr::include_graphics("img/myProjects2a_regular.png")
 ```
 
 # Purpose
@@ -20,7 +20,7 @@ This page allows a user to visualize and edit their projects.
 ## From
 
 - [login](login.html)
-- [databrary.org](index.html)
+- User avatar dropdown from [databrary.org](index.html)
 - [dashboard](landingPageAuth.html)
 - [people](myPeople.html)
 
@@ -44,13 +44,19 @@ This page allows a user to visualize and edit their projects.
 
 # Comments
 
+- (TODO:Swapnaa) Is this what we've been calling the landing page ([LandingLoggedIn](LandingLoggedIn.html)) or dashboard, or is it the [myProjects](myProjects.html) page? 
+Also, `img/myProjects2a_regular.png` did not get pushed to the repo. 
+I commented this out so the site will render.
+Can we link to draw.io URLs?
+Finally, did you delete the landing page for newly registered (landingNoAuth, landingAuth) users?
+
 First-time users will see this:
 ```{r, echo=FALSE}
-knitr::include_graphics("img/myProjects2a_firsttime.png")
+#knitr::include_graphics("img/myProjects2a_firsttime.png")
 ```
 
-Users with under 5 projeccrs will see this:
+Users with under 5 projects will see this:
 ```{r, echo=FALSE}
-knitr::include_graphics("img/myProjects2a_under5.png")
+#knitr::include_graphics("img/myProjects2a_under5.png")
 ```
 

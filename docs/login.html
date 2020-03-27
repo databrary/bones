@@ -13,6 +13,7 @@
 
 <title>login</title>
 
+<script src="site_libs/header-attrs-2.1/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -383,7 +384,7 @@ $(document).ready(function () {
 <div id="from" class="section level2">
 <h2>From</h2>
 <ul>
-<li><a href="databrary.org.html">databrary.org</a></li>
+<li>Avatar login menu item on <a href="databrary.org.html">databrary.org</a></li>
 </ul>
 </div>
 <div id="to" class="section level2">
@@ -391,7 +392,11 @@ $(document).ready(function () {
 <ul>
 <li><a href="forgotPassword.html">forgotPassword</a></li>
 <li><a href="register.html">register</a></li>
-<li>dashboard</li>
+<li>dashboard
+<ul>
+<li>Option 1: <a href="my.html">my</a></li>
+<li>if (loggedIn) {if (userNotAuthored) {LandingLoggedInNoAuth} else {LandingLoggedInNoAuth}}</li>
+</ul></li>
 </ul>
 </div>
 </div>
@@ -400,13 +405,16 @@ $(document).ready(function () {
 <ul>
 <li><a href="forgotPassword.html">forgotPassword</a></li>
 <li><a href="register.html">register</a></li>
-<li>submitButton</li>
+<li>submitButton
+<ul>
+<li>Submits credentials to authentication routines</li>
+</ul></li>
 </ul>
 </div>
 <div id="comments" class="section level1">
 <h1>Comments</h1>
 <ul>
-<li>if (userAuthorized == true) {<a href="landingPageAuth.html">Authorized Investigator dashboard</a>} else {<a href="landingPageNoAuth.html">Unsupervised User dashboard</a>}</li>
+<li>Must handle loggedIn state and user authorization state to determine which dashboard/landing page is shown.</li>
 </ul>
 </div>
 

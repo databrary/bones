@@ -19,20 +19,23 @@ This page controls site logins.
 
 ## From
 
-- [databrary.org](databrary.org.html)
+- Avatar login menu item on [databrary.org](databrary.org.html)
 
 ## To
 
 - [forgotPassword](forgotPassword.html)
 - [register](register.html)
 - dashboard
+    - Option 1: [my](my.html)
+    - if (loggedIn) {if (userNotAuthored) {LandingLoggedInNoAuth} else {LandingLoggedInNoAuth}}
 
 # Actions
 
 - [forgotPassword](forgotPassword.html)
 - [register](register.html)
 - submitButton
+    - Submits credentials to authentication routines
 
 # Comments
 
- - if (userAuthorized == true) {[Authorized Investigator dashboard](landingPageAuth.html)} else {[Unsupervised User dashboard](landingPageNoAuth.html)}
+- Must handle loggedIn state and user authorization state to determine which dashboard/landing page is shown.
