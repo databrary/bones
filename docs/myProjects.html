@@ -370,7 +370,7 @@ $(document).ready(function () {
 <p><img src="img/myProjects.png" /><!-- --></p>
 <div id="purpose" class="section level1">
 <h1>Purpose</h1>
-<p>This page allows a user to visualize and edit their projects.</p>
+<p>This page allows a user to visualize and edit their projects. This page is separate from the dashboard.</p>
 </div>
 <div id="routes" class="section level1">
 <h1>Routes</h1>
@@ -378,7 +378,6 @@ $(document).ready(function () {
 <h2>API</h2>
 <ul>
 <li>databrary.org/my/projects</li>
-<li>nyu.databrary.org/my/projects</li>
 </ul>
 </div>
 <div id="from" class="section level2">
@@ -401,17 +400,55 @@ $(document).ready(function () {
 </ul>
 </div>
 </div>
-<div id="actions" class="section level1">
-<h1>Actions</h1>
+<div id="actionsimplementations" class="section level1">
+<h1>Actions/Implementations</h1>
 <ul>
-<li>Browse new projects</li>
-<li>Create new projects via <a href="ProjectCreate.html">ProjectCreate</a></li>
-<li>Access existing projects</li>
-<li>Delete projects</li>
-<li>Edit projects</li>
-<li>Share projects (with specific people) <a href="myProjectsPermissions.html">ProjectPermissions</a></li>
-<li>Share projects (with Databrary)</li>
-<li>Get data about projects <a href="myProjectsAudit.html">Project Audit</a></li>
+<li><em>Browse</em> projects
+<ul>
+<li>‘Projects I own’
+<ul>
+<li>Default sort on most recently edited</li>
+<li>Change sort by name, shared status</li>
+<li>Show grid/card-like view with thumbnail or switch to list view</li>
+</ul></li>
+<li>‘Projects shared with me’ (‘Shared with me’)
+<ul>
+<li>Default sort on most recently edited</li>
+<li>Select sort by name, shared status</li>
+<li>Show grid/card=like view with thumbnail or switch to list view</li>
+</ul></li>
+<li>‘Projects of my sponsors’
+<ul>
+<li>Drop down to select sponsor, select takes to <code>databrary.org/person/&lt;id&gt;/projects</code></li>
+</ul></li>
+</ul></li>
+<li><em>Edit</em> projects
+<ul>
+<li>How select edit mode?</li>
+<li>Edit in place or switch to <a href="projectPage.html">projectPage</a> aka <code>databrary.org/project/&lt;id&gt;</code>?
+<ul>
+<li>If edit in place, allow editing of
+<ul>
+<li>Name</li>
+<li>Sharing status</li>
+</ul></li>
+<li>To edit people, switch to <a href="myPeople.html">myPeople</a> for selected project.</li>
+</ul></li>
+</ul></li>
+<li><em>Delete</em> projects
+<ul>
+<li>How delete? Make two-step process with confirmation.</li>
+</ul></li>
+<li><em>Create</em> new projects
+<ul>
+<li><code>Create Project</code> button -&gt; <a href="ProjectCreate.html">ProjectCreate</a></li>
+</ul></li>
+<li><em>Share</em> projects
+<ul>
+<li>(with specific people) <a href="myProjectsPermissions.html">ProjectPermissions</a></li>
+<li>(with Databrary)</li>
+</ul></li>
+<li><em>Audit</em> (Get data about projects) <a href="myProjectsAudit.html">Project Audit</a></li>
 </ul>
 </div>
 <div id="comments" class="section level1">

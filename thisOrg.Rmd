@@ -17,7 +17,6 @@ See <https://nyu.databrary.org/party/12>
 ## API
 
 - databrary.org/orgs/<id>
-- nyu.databrary.org/orgs</id>
 
 ## From
 
