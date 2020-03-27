@@ -35,6 +35,7 @@ This page is separate from the dashboard.
 # Actions/Implementations
 
 - *Browse* projects
+  - Consider separate tabs interface for these components, e.g. <https://quasar.dev/vue-components/tab-panels#With-QTabs> or <https://quasar.dev/vue-components/tab-panels#With-vertical-QTabs-and-QSplitter>
   - 'Projects I own'
     - Default sort on most recently edited
     - Change sort by name, shared status
