@@ -15,10 +15,43 @@ This page allows a user to apply for authorization from an institution.
 ## From
 
 - [landingPageNoAuth](landingPageNoAuth.html)
+- link that is clicked within the confirmation email
 
 ## To
 
 - [applyForAuthorization](applyForAuthorization.html)
+
+# Actions
+
+- Complete all information here necesary to apply for authorization. This should include everything below.
+
+Text Boxes to enter the following information
+
+- Your Institution name (required)
+- Institution website
+- Your Title
+- Your Department
+- Your Institutional website (required)
+- What office at your institution is typically responsible for signing contracts on behalf of the Institution? (required) 
+  - Sponsored Programs 
+  - Office of Research Services
+  - Contract Office
+  - Other Option (provide text box, with disappearing label: Name of office)
+  - Don't Know
+- Office Website
+- Institutional Signatory first name (only display if Sponsored Programs, Office of Research Services, Contract Office, Other Option)
+- Institutional Signatory last name (only display if Sponsored Programs, Office of Research Services, Contract Office, Other Option)
+- Institutional Signatory title (e.g., Dr., Mr., Ms.) (only display if Sponsored Programs, Office of Research Services, Contract Office, Other Option)
+- Institutional Signatory email (only display if Sponsored Programs, Office of Research Services, Contract Office, Other Option)
+- Is your Institutional Signatory aware that they will be receiving a Databrary Access request? Yes/No (only display if Sponsored Programs, Office of Research Services, Contract Office, Other Option)
+  *Please Note: The authorization process goes much faster if your Institutional Signatory gets an email from you alerting them that we will be contacting them by email in the near future.*
+
+
+Check box: I grant my permission for Databrary to reach out to the AOR listed above. Yes/No
+
+- Is your primary request to utilize the CAFE dataset? Yes/No (optional)
+
+- Do you currently use Datavyu? Yes/No (optional)
 
 # Comments
 

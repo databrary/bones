@@ -20,9 +20,33 @@ This page provides a user access to resources to learn about Databrary or get us
 ## From
 
 - [databrary.org](index.html)
+- [my.Rmd](img/LandingLoggedIn.png)
 
 ## To
 
 # Actions
+
+- for Institutions (maybe somewhere else
+- for IRB (maybe somewhere else)
+
+
+- How to
+  - get authorized
+  - add Supervised Users
+  - create a project
+  - document permission from participants
+- FAQ
+  
+- User Guide
+ 
+- Templates
+  - IRB Application - Databrary Use
+  - Data Management Plan
+  - Lab Staff Access Agreement
+  - Video Data Release, Lab Staff
+  - Video Data Release, Participants
+- Glossary
+- Contact Databrary
+
 
 # Comments
