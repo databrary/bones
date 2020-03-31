@@ -1,5 +1,5 @@
 ---
-title: "projectPage"
+title: "thisProjectPage"
 ---
 
 ```{r, echo=FALSE}

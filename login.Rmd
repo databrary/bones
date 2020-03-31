@@ -29,12 +29,13 @@ This page controls site logins.
     - Option 1: [my](my.html)
     - if (loggedIn) {if (userNotAuthored) {LandingLoggedInNoAuth} else {LandingLoggedInNoAuth}}
 
-# Actions
+# Actions/Implementations
 
 - [forgotPassword](forgotPassword.html)
-- [register](register.html)
-- submitButton
+- `Log In`
     - Submits credentials to authentication routines
+    - Navigates to [Dashboard](dashboardAuth.html) or [dashboardNoAuth](dashboardNoAuth.html)
+- [register](register.html)
 
 # Comments
 
