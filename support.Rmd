@@ -3,7 +3,7 @@ title: "support"
 ---
 
 ```{r, echo=FALSE}
-knitr::include_graphics("img/support.png")
+knitr::include_graphics("img/support.gif")
 ```
 
 # Purpose
