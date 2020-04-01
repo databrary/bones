@@ -3,7 +3,7 @@ title: "support"
 ---
 
 ```{r, echo=FALSE}
-knitr::include_graphics("img/support.png")
+knitr::include_graphics("img/support.gif")
 ```
 
 # Purpose
@@ -25,6 +25,7 @@ This page provides a user access to resources to learn about Databrary or get us
 ## To
 
 # Actions
+
 
 - for Institution Authorized Organizational Representatives
   - Databrary Access Agreement
@@ -56,8 +57,8 @@ This page provides a user access to resources to learn about Databrary or get us
   
 - User Guide
  
-- Templates (only provide .pdf or .doc versions)
-  - IRB Application - Databrary Use 
+
+  - IRB Application - Databrary Use
   - Data Management Plan
   - Lab Staff Access Agreement
   - Video Data Release, Lab Staff
