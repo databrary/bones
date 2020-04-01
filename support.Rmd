@@ -28,18 +28,20 @@ This page provides a user access to resources to learn about Databrary or get us
 
 - for Institutions (maybe somewhere else
 - for IRB (maybe somewhere else)
-
+- for Authorized Investigators
+- for Supervised Users
 
 - How to
-  - get authorized
-  - add Supervised Users
+  - get authorized as an Authorized Investigator
+  - have a supervised user create an account and request access from their Sponsoring Authorized Investigator
+  - Authorized Investigators can add Supervised Users
   - create a project
   - document permission from participants
 - FAQ
   
 - User Guide
  
-- Templates
+- Templates (only provide .pdf or .doc versions)
   - IRB Application - Databrary Use
   - Data Management Plan
   - Lab Staff Access Agreement
