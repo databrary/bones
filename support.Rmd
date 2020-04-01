@@ -26,26 +26,43 @@ This page provides a user access to resources to learn about Databrary or get us
 
 # Actions
 
-- for Institutions (maybe somewhere else
-- for IRB (maybe somewhere else)
-
+- for Institution Authorized Organizational Representatives
+  - Databrary Access Agreement
+  - Statement of Rights and Responsibilities - Annex I
+  - Additional Authorized Investigators - Annex II
+  - Databrary Access Guide - Annex III
+  - Terms of Use
+  - Privacy Policy
+  - [User Guide - for institutions](https://www.databrary.org/resources/guide/institutions.html)
+  
+- for IRB 
+  - Rules for Ethics oversight vs. approval - from ARS email
+  - [Work with IRB](https://www.databrary.org/resources/policies/work-with-irb.html)
+  
+- for Authorized Investigators
+  - What if I leave my institution and no longer have Authorized Investigator Status?
+  - 
+  
+- for Supervised Users
+  - How do I request access from my Supervising Professor?
 
 - How to
-  - get authorized
-  - add Supervised Users
+  - get authorized as an Authorized Investigator
+  - have a supervised user create an account and request access from their Sponsoring Authorized Investigator
+  - Authorized Investigators can add Supervised Users
   - create a project
   - document permission from participants
-- FAQ
+- [FAQ](https://www.databrary.org/resources/faq.html) reorganize?
   
 - User Guide
  
-- Templates
-  - IRB Application - Databrary Use
+- Templates (only provide .pdf or .doc versions)
+  - IRB Application - Databrary Use 
   - Data Management Plan
   - Lab Staff Access Agreement
   - Video Data Release, Lab Staff
-  - Video Data Release, Participants
-- Glossary
+  - Sharing Release, Video Data Release, Participants
+- [Glossary](https://docs.google.com/document/d/1pP7L-fp31S8s3uufObLT_Na57OMf0znO1ugGuVfNieM/edit#heading=h.757eov12hzcx)
 - Contact Databrary
 
 
