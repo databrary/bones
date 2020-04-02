@@ -45,14 +45,21 @@ This page provides a user access to resources to learn about Databrary or get us
   - add a supervised user to my group/lab data
   - add a supervised user to all shared Databrary data
   - What if I leave my institution and no longer have Authorized Investigator Status?
+
+  
 - for Supervised Users
-  - How do I request access from my Supervising Professor?
+  - request access from my Supervising Professor?
+  
+
 - How to
   - get authorized as an Authorized Investigator
   - have a supervised user create an account and request access from their Sponsoring Authorized Investigator
   - Authorized Investigators can add Supervised Users
   - create a project
   - document permission from participants
+
+  
+
 - [FAQ](https://www.databrary.org/resources/faq.html) reorganize?
   
 - User Guide
@@ -60,12 +67,19 @@ This page provides a user access to resources to learn about Databrary or get us
   - How to upload participant data
  
 
+- Templates
+
+
   - IRB Application - Databrary Use
   - Data Management Plan
   - Lab Staff Access Agreement
   - Video Data Release, Lab Staff
   - Sharing Release, Video Data Release, Participants
+
+  
 - [Glossary](https://docs.google.com/document/d/1pP7L-fp31S8s3uufObLT_Na57OMf0znO1ugGuVfNieM/edit#heading=h.757eov12hzcx)
+
+
 - Contact Databrary
 
 
