@@ -41,12 +41,12 @@ This page provides a user access to resources to learn about Databrary or get us
   - [Work with IRB](https://www.databrary.org/resources/policies/work-with-irb.html)
   
 - for Authorized Investigators
+
+  - add a supervised user to my group/lab data
+  - add a supervised user to all shared Databrary data
   - What if I leave my institution and no longer have Authorized Investigator Status?
-  - 
-  
 - for Supervised Users
   - How do I request access from my Supervising Professor?
-
 - How to
   - get authorized as an Authorized Investigator
   - have a supervised user create an account and request access from their Sponsoring Authorized Investigator
@@ -56,6 +56,8 @@ This page provides a user access to resources to learn about Databrary or get us
 - [FAQ](https://www.databrary.org/resources/faq.html) reorganize?
   
 - User Guide
+  - How to create a new project
+  - How to upload participant data
  
 
   - IRB Application - Databrary Use
