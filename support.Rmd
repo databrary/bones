@@ -29,7 +29,10 @@ This page provides a user access to resources to learn about Databrary or get us
 - for Institutions (maybe somewhere else
 - for IRB (maybe somewhere else)
 - for Authorized Investigators
+  - add a supervised user to my group/lab data
+  - add a supervised user to all shared Databrary data
 - for Supervised Users
+  - request access from an Authorized Investigator
 
 - How to
   - get authorized as an Authorized Investigator
@@ -40,6 +43,8 @@ This page provides a user access to resources to learn about Databrary or get us
 - FAQ
   
 - User Guide
+  - How to create a new project
+  - How to upload participant data
  
 - Templates (only provide .pdf or .doc versions)
   - IRB Application - Databrary Use
