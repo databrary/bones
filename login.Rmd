@@ -23,6 +23,9 @@ This page controls site logins.
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 - [forgotPassword](forgotPassword.html)
 - [register](register.html)
 - dashboard

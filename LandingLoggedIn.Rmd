@@ -28,6 +28,9 @@ It is the view  **after users log-in**.
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 - [myProjects](myProjects.html)
 - [myPeople](myPeople.html)
 - [settings](settings.html)

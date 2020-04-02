@@ -26,6 +26,9 @@ This page allows a user to visualize and edit their projects.
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 - [people](myPeople.html)
 - [settings](settings.html)
 - [profile](profile.html)

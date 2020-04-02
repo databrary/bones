@@ -18,3 +18,6 @@ knitr::include_graphics("img/aboutProject.png")
 - [databrary.org](index.html)
 
 ## To
+
+```{r child = 'headerLinks.Rmd'}
+```

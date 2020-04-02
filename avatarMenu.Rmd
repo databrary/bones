@@ -21,6 +21,9 @@ It shows the user's avatar, and it provides access to other functions.
 
 # To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 # Actions/Implementations
 
 - Navigate to [Dashboard](dashboardAuth.html) or [dashboardNoAuth](dashboardNoAuth.html)

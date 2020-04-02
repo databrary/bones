@@ -23,5 +23,8 @@ This page provides information about Databrary.
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 # Comments
 

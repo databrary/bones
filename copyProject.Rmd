@@ -23,6 +23,9 @@ This page allows users to copy materials from one Project to another Project.
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 # Actions
 
 - Select all files in source Project and copy to (new or existing) target Project

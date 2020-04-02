@@ -28,6 +28,9 @@ This page has special features for users who are not authorized.
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 - [applyForAuthorization](applyForAuthorization.html)
 - [myProjects](myProjects.html)
 - [myPeople](myPeople.html)

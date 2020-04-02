@@ -27,6 +27,9 @@ See <https://nyu.databrary.org/search?offset=0&volume=false&f.party_authorizatio
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 - [Selected org](thisOrg.html)
 
 # Actions

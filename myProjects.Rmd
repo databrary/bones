@@ -26,6 +26,9 @@ This page is separate from the dashboard.
 
 ## To
 
+
+```{r child = 'headerLinks.Rmd'}
+```
 - [people](myPeople.html)
 - [settings](settings.html)
 - [profile](profile.html)
