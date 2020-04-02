@@ -24,6 +24,9 @@ This page provides a user access to resources to learn about Databrary or get us
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 # Actions
 
 

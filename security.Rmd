@@ -27,6 +27,9 @@ This page allows a user to set additional security settings, e.g. 2FA.
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 - [profile](profile.html)
 - [account](account.html)
 - [emails](emails.html)

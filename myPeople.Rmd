@@ -26,6 +26,9 @@ This page allows a user to edit Supervised Users and their access to Projects.
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 - [people](myPeople.html)
 - [settings](settings.html)
 - [profile](profile.html)

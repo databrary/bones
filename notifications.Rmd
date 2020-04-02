@@ -23,6 +23,9 @@ This popup provides information about notifications
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 - more information about each specific notification
 
 # Comments

@@ -24,6 +24,9 @@ This page allows users to create a new Project.
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 - [thisProjectPage](thisProjectPage.html) for newly created project, e.g., project/<id>
 
 # Actions

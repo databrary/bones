@@ -28,6 +28,9 @@ It is where users land after they log-in from the Databrary home page.
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 - [myProjects](myProjects.html)
 - [myPeople](myPeople.html)
 - [settings](settings.html)

@@ -26,6 +26,9 @@ This page is the "face" of individual projects on Databrary.
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 - editContributors
 - [copyProject](copyProject.html)
 - [filesPage](filesPage.html)

@@ -19,6 +19,9 @@ It is where users land **after they log-out**.
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 # Actions/Implementations
 
 - Browse
