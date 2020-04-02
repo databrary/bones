@@ -11,8 +11,9 @@
 
 
 
-<title>projectPage</title>
+<title>avatarMenu</title>
 
+<script src="site_libs/header-attrs-2.1/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -322,23 +323,8 @@ $(document).ready(function () {
         <li>
   <a href="notifications.html">Notifications</a>
 </li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Avatar
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="settings.html">Account Settings</a>
-    </li>
-    <li>
-      <a href="landingPageAuth.html">My Projects</a>
-    </li>
-    <li>
-      <a href="logout.html">Logout</a>
-    </li>
-  </ul>
+<li>
+  <a href="avatarMenu.html">Avatar</a>
 </li>
 <li>
   <a href="login.html">Login</a>
@@ -361,76 +347,54 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">projectPage</h1>
+<h1 class="title toc-ignore">avatarMenu</h1>
 
 </div>
 
 
-<p><img src="img/projectPage.png" /><!-- --></p>
+<p><img src="img/avatar.png" width="5%" style="display: block; margin: auto;" /></p>
 <div id="purpose" class="section level1">
 <h1>Purpose</h1>
-<p>This page is the “face” of individual projects on Databrary.</p>
+<p>This menu appears on the site-wide toolbar. It shows the user’s avatar, and it provides access to other functions.</p>
 </div>
 <div id="routes" class="section level1">
 <h1>Routes</h1>
-<div id="api" class="section level2">
-<h2>API</h2>
 <ul>
-<li>databrary.org/project/<id></li>
-<li>nyu.databrary.org/project/<id></li>
-<li>databrary.org/my/project/<id></li>
-<li>nyu.databrary.org/my/project/<id></li>
+<li>databrary.org</li>
 </ul>
 </div>
-<div id="from" class="section level2">
-<h2>From</h2>
+<div id="from" class="section level1">
+<h1>From</h1>
 <ul>
-<li><a href="landingPageAuth.html">dashboard</a></li>
-<li><a href="ProjectCreate.html">ProjectCreate</a></li>
+<li><a href="index.html">databrary.org</a></li>
 </ul>
 </div>
-<div id="to" class="section level2">
-<h2>To</h2>
-<ul>
-<li>editContributors</li>
-<li><a href="copyProject.html">copyProject</a></li>
-<li><a href="filesPage.html">filesPage</a></li>
-</ul>
+<div id="to" class="section level1">
+<h1>To</h1>
 </div>
-</div>
-<div id="actions" class="section level1">
-<h1>Actions</h1>
+<div id="actionsimplementations" class="section level1">
+<h1>Actions/Implementations</h1>
 <ul>
-<li>Browse project (if (userAuthorized == TRUE &amp;&amp; projectShared == TRUE))</li>
-<li>Edit project (if (userEditPrivilegesOnProject == TRUE))
+<li>Navigate to <a href="dashboardAuth.html">Dashboard</a> or <a href="dashboardNoAuth.html">dashboardNoAuth</a></li>
+<li>Navigate to <a href="settings.html">Settings</a></li>
+<li><del>Navigate to <a href="myProjects.html">My Projects</a></del></li>
+<li><a href="logout.html">Log out</a>
 <ul>
-<li>Edit project data
-<ul>
-<li>Edit contributors</li>
-<li>Edit title</li>
-<li>Edit description</li>
-<li>Edit sharing status</li>
+<li>Or have separate Login/Logout item on menu bar?</li>
 </ul></li>
-<li>Edit files via <a href="filesPage.html">filesPage</a>
+<li><del>Create New Project?</del>
 <ul>
-<li>Edit materials</li>
-<li>Upload data</li>
-<li>Edit access</li>
+<li><del>DB1.0 permits this.</del></li>
 </ul></li>
-</ul></li>
-<li>Bookmark project (for later reference)
-<ul>
-<li>Create array of bookmarked projects, show in dashboard/landing page</li>
-</ul></li>
-<li>Download project (if …)</li>
-<li>Copy project to… (if …)</li>
 </ul>
+<p><img src="img/db10-avatar.png" height="5%" style="display: block; margin: auto;" /></p>
 </div>
 <div id="comments" class="section level1">
 <h1>Comments</h1>
 <ul>
-<li>Do we keep notion of shared (Public) Volume Overview?</li>
+<li>KoboToolbox.org includes links to the project’s terms and privacy policy.</li>
 </ul>
+<p><img src="img/koboToolbox.png" width="25%" style="display: block; margin: auto;" /></p>
 </div>
 
 </br>
