@@ -11,7 +11,7 @@
 
 
 
-<title>myProjectsPermissions</title>
+<title>thisProjectPage</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -272,8 +272,23 @@ $(document).ready(function () {
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">Databrary</a>
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Databrary
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="dashboardAuth.html">&lt;LoggedIn state&gt; Authorized user</a>
+    </li>
+    <li>
+      <a href="dashboardNoAuth.html">&lt;LoggedIn state&gt; Unauthorized user</a>
+    </li>
+    <li>
+      <a href="index.html">&lt;LoggedOut state&gt;</a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="search.html">Search</a>
@@ -292,7 +307,7 @@ $(document).ready(function () {
       <a href="aboutDatabrary.html">Databrary</a>
     </li>
     <li>
-      <a href="aboutProject.html">Project</a>
+      <a href="aboutProject.html">Project - confusing term</a>
     </li>
     <li>
       <a href="aboutTeam.html">Team</a>
@@ -346,61 +361,109 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">myProjectsPermissions</h1>
+<h1 class="title toc-ignore">thisProjectPage</h1>
 
 </div>
 
 
-<p><img src="img/myProjectsPermissions.png" /><!-- --></p>
+<p><img src="img/projectPage.png" /><!-- --></p>
 <div id="purpose" class="section level1">
 <h1>Purpose</h1>
-<p>This page allows a user to visualize and edit project permissions for multiple projects at a time. It also allows editing permissions for multiple people at a time.</p>
+<p>This page is the “face” of individual projects on Databrary.</p>
 </div>
 <div id="routes" class="section level1">
 <h1>Routes</h1>
 <div id="api" class="section level2">
 <h2>API</h2>
 <ul>
-<li>?</li>
+<li>databrary.org/project/<id></li>
+<li>nyu.databrary.org/project/<id></li>
+<li>databrary.org/my/project/<id></li>
+<li>nyu.databrary.org/my/project/<id></li>
 </ul>
 </div>
 <div id="from" class="section level2">
 <h2>From</h2>
 <ul>
-<li><a href="login.html">login</a></li>
-<li><a href="index.html">databrary.org</a></li>
 <li><a href="landingPageAuth.html">dashboard</a></li>
-<li><a href="myPeople.html">people</a></li>
-<li><a href="myProjects.html">projects</a></li>
+<li><a href="ProjectCreate.html">ProjectCreate</a></li>
 </ul>
 </div>
 <div id="to" class="section level2">
 <h2>To</h2>
+<p>Header links:</p>
 <ul>
-<li>haven’t edited this yet</li>
-<li><a href="myPeople.html">people</a></li>
-<li><a href="settings.html">settings</a></li>
-<li><a href="profile.html">profile</a></li>
-<li><a href="landingPageAuth.html">dashboard</a></li>
-<li><a href="ProjectCreate.html">ProjectCreate</a></li>
+<li><a href="search.html">search</a></li>
+<li><a href="news.html">news</a></li>
+<li>about
+<ul>
+<li><a href="aboutDatabrary.html">aboutDatabrary</a></li>
+<li><a href="aboutProject.html">aboutProject</a> <em>consider calling this something other than “project”?</em></li>
+<li><a href="aboutTeam.html">aboutTeam</a></li>
+</ul></li>
+<li>community
+<ul>
+<li><a href="people.html">people</a></li>
+<li><a href="orgs.html">orgs</a></li>
+</ul></li>
+<li><a href="support.html">support</a></li>
+<li>avatar
+<ul>
+<li><a href="dashboardAuth.html">dashboard-auth</a> (<a href="dashboardNoAuth.html">dashboard-noAuth</a>)</li>
+<li><a href="settings.html">settings</a>
+<ul>
+<li>profile</li>
+<li>accounts</li>
+<li>email</li>
+<li>security</li>
+</ul></li>
+<li><a href="myProjects.html">myProjects</a></li>
+<li><a href="logout.html">logout</a></li>
+</ul></li>
+<li><a href="login.html">login</a></li>
+<li><a href="register.html">register</a></li>
+</ul>
+<p>Direct links:</p>
+<ul>
+<li>editContributors</li>
+<li><a href="copyProject.html">copyProject</a></li>
+<li><a href="filesPage.html">filesPage</a></li>
 </ul>
 </div>
 </div>
 <div id="actions" class="section level1">
 <h1>Actions</h1>
 <ul>
-<li>haven’t edited this yet</li>
-<li>Create new projects via <a href="ProjectCreate.html">ProjectCreate</a></li>
-<li>Access existing projects</li>
-<li>Delete projects</li>
-<li>Edit projects</li>
-<li>Share projects (with specific people)</li>
-<li>Share projects (with Databrary)</li>
-<li>Get data about projects</li>
+<li>Browse project (if (userAuthorized == TRUE &amp;&amp; projectShared == TRUE))</li>
+<li>Edit project (if (userEditPrivilegesOnProject == TRUE))
+<ul>
+<li>Edit project data
+<ul>
+<li>Edit contributors</li>
+<li>Edit title</li>
+<li>Edit description</li>
+<li>Edit sharing status</li>
+</ul></li>
+<li>Edit files via <a href="filesPage.html">filesPage</a>
+<ul>
+<li>Edit materials</li>
+<li>Upload data</li>
+<li>Edit access</li>
+</ul></li>
+</ul></li>
+<li>Bookmark project (for later reference)
+<ul>
+<li>Create array of bookmarked projects, show in dashboard/landing page</li>
+</ul></li>
+<li>Download project (if …)</li>
+<li>Copy project to… (if …)</li>
 </ul>
 </div>
 <div id="comments" class="section level1">
 <h1>Comments</h1>
+<ul>
+<li>Do we keep notion of shared (Public) Volume Overview?</li>
+</ul>
 </div>
 
 </br>

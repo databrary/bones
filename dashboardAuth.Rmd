@@ -17,9 +17,7 @@ It is where users land after they log-in from the Databrary home page.
 ## API
 
 - databrary.org/my
-- nyu.databrary.org/my
 - databrary.org/dashboard
-- nyu.databrary.org/dashboard
 
 ## From
 
@@ -31,19 +29,31 @@ It is where users land after they log-in from the Databrary home page.
 ```{r child = 'headerLinks.Rmd'}
 ```
 
-- [myProjects](myProjects.html)
-- [myPeople](myPeople.html)
-- [settings](settings.html)
-- [profile](profile.html)
+- [thisProject](thisProject.html) from "Create project" button
+- [myProjects](myProjects.html) page through "View all" button
+- [manageProjects](myProjectsManage.html) page through "Edit project permissions" button
+- [auditProjects](myProjectsAudit.html) page through "Audit my projects" button
+- [search](search.html) page through "search people" button
+- [search](search.html) results page of all users belonging to /my/org through "browse colleagues" button
 
 # Actions
 
-- Create project(s)
-- Manage people
-- Edit profile
-- Edit other settings
-- Browse (public + shared) projects on Databrary
-- Learn about Databrary
+- Create project (modal - takes user to [thisProject](thisProject.html) on save)
+- View projects
+  - recently updated (default)
+  - shared by others (option)
+  - belonging to specific user groups (option)
+  - belonging to specific project groups (option)
+- Search for projects
+- View people
+  - collaborators (default)
+  - colleagues (default)
+- Search for people
+- View latest (public + shared) projects on Databrary
+- ~Manage people~
+- ~Edit profile~ (always available through header avatar)
+- ~Edit other settings~ (always available through header avatar)
+- ~Learn about Databrary~  (always available through header avatar)
 
 # Comments
 

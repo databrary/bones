@@ -272,8 +272,23 @@ $(document).ready(function () {
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">Databrary</a>
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Databrary
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="dashboardAuth.html">&lt;LoggedIn state&gt; Authorized user</a>
+    </li>
+    <li>
+      <a href="dashboardNoAuth.html">&lt;LoggedIn state&gt; Unauthorized user</a>
+    </li>
+    <li>
+      <a href="index.html">&lt;LoggedOut state&gt;</a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="search.html">Search</a>
@@ -292,7 +307,7 @@ $(document).ready(function () {
       <a href="aboutDatabrary.html">Databrary</a>
     </li>
     <li>
-      <a href="aboutProject.html">Project</a>
+      <a href="aboutProject.html">Project - confusing term</a>
     </li>
     <li>
       <a href="aboutTeam.html">Team</a>
@@ -373,6 +388,39 @@ $(document).ready(function () {
 </div>
 <div id="to" class="section level2">
 <h2>To</h2>
+<p>Header links:</p>
+<ul>
+<li><a href="search.html">search</a></li>
+<li><a href="news.html">news</a></li>
+<li>about
+<ul>
+<li><a href="aboutDatabrary.html">aboutDatabrary</a></li>
+<li><a href="aboutProject.html">aboutProject</a> <em>consider calling this something other than “project”?</em></li>
+<li><a href="aboutTeam.html">aboutTeam</a></li>
+</ul></li>
+<li>community
+<ul>
+<li><a href="people.html">people</a></li>
+<li><a href="orgs.html">orgs</a></li>
+</ul></li>
+<li><a href="support.html">support</a></li>
+<li>avatar
+<ul>
+<li><a href="dashboardAuth.html">dashboard-auth</a> (<a href="dashboardNoAuth.html">dashboard-noAuth</a>)</li>
+<li><a href="settings.html">settings</a>
+<ul>
+<li>profile</li>
+<li>accounts</li>
+<li>email</li>
+<li>security</li>
+</ul></li>
+<li><a href="myProjects.html">myProjects</a></li>
+<li><a href="logout.html">logout</a></li>
+</ul></li>
+<li><a href="login.html">login</a></li>
+<li><a href="register.html">register</a></li>
+</ul>
+<p>Direct links:</p>
 <ul>
 <li>more information about each specific notification</li>
 </ul>
