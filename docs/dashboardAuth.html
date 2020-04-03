@@ -425,9 +425,9 @@ $(document).ready(function () {
 <p>Direct links:</p>
 <ul>
 <li><a href="thisProject.html">thisProject</a> from “Create project” button</li>
-<li><a href="myProjects.html">myProjects</a> page through “View all” button</li>
 <li><a href="myProjectsManage.html">manageProjects</a> page through “Edit project permissions” button</li>
 <li><a href="myProjectsAudit.html">auditProjects</a> page through “Audit my projects” button</li>
+<li><a href="settings.html">settings</a> through “Update my profile” button</li>
 <li><a href="search.html">search</a> page through “search people” button</li>
 <li><a href="search.html">search</a> results page of all users belonging to /my/org through “browse colleagues” button</li>
 </ul>
@@ -445,6 +445,7 @@ $(document).ready(function () {
 <li>belonging to specific project groups (option)</li>
 </ul></li>
 <li>Search for projects</li>
+<li>Update profile button takes user to <a href="settings.html">settings</a></li>
 <li>View people
 <ul>
 <li>collaborators (default)</li>
@@ -463,6 +464,126 @@ $(document).ready(function () {
 <ul>
 <li>if (userAuthorized == FALSE) {show <a href="dashboardNoAuth.html">dashboardNoAuth</a>]} else {show <a href="dashboardAuth.html">dashboardAuth</a>)}</li>
 </ul>
+</div>
+<div id="quasar" class="section level1">
+<h1>Quasar</h1>
+<ul>
+<li>Here’s the Quasar/CodePen code for that drawer layout piece:</li>
+</ul>
+<hr />
+<!--
+  Forked from:
+  https://quasar.dev/layout/drawer#Example--Header-Picture
+-->
+<div id="q-app">
+<div class="q-pa-md">
+<pre><code>&lt;q-layout view=&quot;lHh Lpr lff&quot; container style=&quot;height: 600px&quot; class=&quot;shadow-2 rounded-borders&quot;&gt;
+  &lt;q-header elevated class=&quot;bg-cyan-8&quot;&gt;
+    &lt;q-toolbar&gt;
+      &lt;q-toolbar-title&gt;Projects&lt;/q-toolbar-title&gt;
+      &lt;q-btn flat @click=&quot;drawer = !drawer&quot; round dense icon=&quot;menu&quot;&gt;&lt;/q-btn&gt;
+    &lt;/q-toolbar&gt;
+  &lt;/q-header&gt;
+
+  &lt;q-drawer
+    v-model=&quot;drawer&quot;
+    show-if-above
+    :width=&quot;200&quot;
+    :breakpoint=&quot;400&quot;
+  &gt;
+    &lt;q-scroll-area style=&quot;height: calc(100% - 150px); margin-top: 150px; border-right: 1px solid #ddd&quot;&gt;
+      &lt;q-list padding&gt;
+        &lt;q-item clickable v-ripple&gt;
+          &lt;q-item-section avatar&gt;
+            &lt;q-icon name=&quot;add&quot;&gt;&lt;/q-icon&gt;
+          &lt;/q-item-section&gt;
+
+          &lt;q-item-section&gt;
+            CREATE NEW
+          &lt;/q-item-section&gt;
+        &lt;/q-item&gt;
+
+        &lt;q-item active clickable v-ripple&gt;
+          &lt;q-item-section avatar&gt;
+            &lt;q-icon name=&quot;history&quot;&gt;&lt;/q-icon&gt;
+          &lt;/q-item-section&gt;
+
+          &lt;q-item-section&gt;
+            Recently updated
+          &lt;/q-item-section&gt;
+        &lt;/q-item&gt;
+
+        &lt;q-item clickable v-ripple&gt;
+          &lt;q-item-section avatar&gt;
+            &lt;q-icon name=&quot;work&quot;&gt;&lt;/q-icon&gt;
+          &lt;/q-item-section&gt;
+
+          &lt;q-item-section&gt;
+            Projects I own
+          &lt;/q-item-section&gt;
+        &lt;/q-item&gt;
+
+        &lt;q-item clickable v-ripple&gt;
+          &lt;q-item-section avatar&gt;
+            &lt;q-icon name=&quot;supervisor_account&quot;&gt;&lt;/q-icon&gt;
+          &lt;/q-item-section&gt;
+
+          &lt;q-item-section&gt;
+            Shared with me
+          &lt;/q-item-section&gt;
+        &lt;/q-item&gt;
+
+        &lt;q-item clickable v-ripple&gt;
+          &lt;q-item-section avatar&gt;
+            &lt;q-icon name=&quot;supervised_user_circle&quot;&gt;&lt;/q-icon&gt;
+          &lt;/q-item-section&gt;
+
+          &lt;q-item-section&gt;
+            User groups
+          &lt;/q-item-section&gt;
+        &lt;/q-item&gt;
+
+        &lt;q-item clickable v-ripple&gt;
+          &lt;q-item-section avatar&gt;
+            &lt;q-icon name=&quot;bookmarks&quot;&gt;&lt;/q-icon&gt;
+          &lt;/q-item-section&gt;
+          
+          &lt;q-item-section&gt;
+            Project groups
+          &lt;/q-item-section&gt;
+        &lt;/q-item&gt;
+
+      &lt;/q-list&gt;
+    &lt;/q-scroll-area&gt;
+
+    &lt;q-img class=&quot;absolute-top&quot; src=&quot;https://cdn.quasar.dev/img/material.png&quot; style=&quot;height: 150px&quot;&gt;
+      &lt;div class=&quot;absolute-bottom bg-transparent&quot;&gt;
+        &lt;q-avatar size=&quot;56px&quot; class=&quot;q-mb-sm&quot;&gt;
+          &lt;img src=&quot;https://cdn.quasar.dev/img/boy-avatar.png&quot;&gt;
+        &lt;/q-avatar&gt;
+        &lt;div class=&quot;text-weight-bold&quot;&gt;Ruth Ginsburg&lt;/div&gt;
+        &lt;div&gt;University of Michigan&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/q-img&gt;
+  &lt;/q-drawer&gt;
+
+  &lt;q-page-container&gt;
+    &lt;q-page padding&gt;
+      &lt;p v-for=&quot;n in 4&quot; :key=&quot;n&quot;&gt;
+            &lt;q-avatar rounded size=&quot;100px&quot; font-size=&quot;82px&quot; color=&quot;teal&quot; text-color=&quot;white&quot; icon=&quot;directions&quot;&gt;&lt;/q-avatar&gt; 
+            &lt;q-avatar rounded size=&quot;24px&quot; color=&quot;orange&quot;&gt;E&lt;/q-avatar&gt;
+            &lt;q-avatar rounded size=&quot;24px&quot; color=&quot;orange&quot;&gt;V&lt;/q-avatar&gt;
+        Project name &amp; description&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 
+            &lt;q-avatar rounded size=&quot;100px&quot; font-size=&quot;82px&quot; color=&quot;teal&quot; text-color=&quot;white&quot; icon=&quot;directions&quot;&gt;&lt;/q-avatar&gt; 
+            &lt;q-avatar rounded size=&quot;24px&quot; color=&quot;orange&quot;&gt;E&lt;/q-avatar&gt;
+            &lt;q-avatar rounded size=&quot;24px&quot; color=&quot;orange&quot;&gt;V&lt;/q-avatar&gt;
+        Project name &amp; description&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;           &lt;/p&gt;
+    &lt;/q-page&gt;
+  &lt;/q-page-container&gt;
+&lt;/q-layout&gt;</code></pre>
+</div>
+</div>
+<hr />
 </div>
 
 </br>
