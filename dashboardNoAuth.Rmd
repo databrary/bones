@@ -56,7 +56,7 @@ _(We need to finalize our permissions matrix to nail this piece)_
 - ~Manage people~
 - ~Edit profile~ (always available through header avatar)
 - ~Edit other settings~ (always available through header avatar)
-- ~Learn about Databrary~  (always available through header avatar)
+- ~Learn about Databrary~  (always available through header avatar) 
 
 # Comments
 
