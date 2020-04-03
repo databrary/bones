@@ -32,9 +32,9 @@ This page has special features for users who are not authorized.
 
 _(We need to finalize our permissions matrix to nail this piece)_
 - [thisProject](thisProject.html) from "Create project" button
-- [myProjects](myProjects.html) page through "View all" button
 - [manageProjects](myProjectsManage.html) page through "Edit project permissions" button
 - [auditProjects](myProjectsAudit.html) page through "Audit my projects" button
+- [settings](settings.html) through "Update my profile" button
 - [search](search.html) page through "search people" button
 - [search](search.html) results page of all users belonging to /my/org through "browse colleagues" button
 
@@ -48,6 +48,7 @@ _(We need to finalize our permissions matrix to nail this piece)_
   - belonging to specific user groups (option)
   - belonging to specific project groups (option)
 - Search for projects
+- Update profile button takes user to [settings](settings.html)
 - View people
   - collaborators (default)
   - colleagues (default)
@@ -56,7 +57,7 @@ _(We need to finalize our permissions matrix to nail this piece)_
 - ~Manage people~
 - ~Edit profile~ (always available through header avatar)
 - ~Edit other settings~ (always available through header avatar)
-- ~Learn about Databrary~  (always available through header avatar) 
+- ~Learn about Databrary~  (always available through header avatar)
 
 # Comments
 
