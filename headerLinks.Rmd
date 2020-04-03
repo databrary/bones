@@ -4,7 +4,7 @@ Header links:
 - [news](news.html)
 - about
     - [aboutDatabrary](aboutDatabrary.html)
-    - [aboutProject](aboutProject.html)
+    - [aboutProject](aboutProject.html) _consider calling this something other than "project"?_
     - [aboutTeam](aboutTeam.html)
 - community
     - [people](people.html)
@@ -13,6 +13,10 @@ Header links:
 - avatar
     - [dashboard-auth](dashboardAuth.html) ([dashboard-noAuth](dashboardNoAuth.html))
     - [settings](settings.html)
+        - profile
+        - accounts
+        - email
+        - security
     - [myProjects](myProjects.html)
     - [logout](logout.html)
 - [login](login.html)

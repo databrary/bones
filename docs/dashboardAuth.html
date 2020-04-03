@@ -272,8 +272,23 @@ $(document).ready(function () {
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">Databrary</a>
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Databrary
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="dashboardAuth.html">&lt;LoggedIn state&gt; Authorized user</a>
+    </li>
+    <li>
+      <a href="dashboardNoAuth.html">&lt;LoggedIn state&gt; Unauthorized user</a>
+    </li>
+    <li>
+      <a href="index.html">&lt;LoggedOut state&gt;</a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="search.html">Search</a>
@@ -292,7 +307,7 @@ $(document).ready(function () {
       <a href="aboutDatabrary.html">Databrary</a>
     </li>
     <li>
-      <a href="aboutProject.html">Project</a>
+      <a href="aboutProject.html">Project - confusing term</a>
     </li>
     <li>
       <a href="aboutTeam.html">Team</a>
@@ -363,9 +378,7 @@ $(document).ready(function () {
 <h2>API</h2>
 <ul>
 <li>databrary.org/my</li>
-<li>nyu.databrary.org/my</li>
 <li>databrary.org/dashboard</li>
-<li>nyu.databrary.org/dashboard</li>
 </ul>
 </div>
 <div id="from" class="section level2">
@@ -377,23 +390,72 @@ $(document).ready(function () {
 </div>
 <div id="to" class="section level2">
 <h2>To</h2>
+<p>Header links:</p>
 <ul>
+<li><a href="search.html">search</a></li>
+<li><a href="news.html">news</a></li>
+<li>about
+<ul>
+<li><a href="aboutDatabrary.html">aboutDatabrary</a></li>
+<li><a href="aboutProject.html">aboutProject</a> <em>consider calling this something other than “project”?</em></li>
+<li><a href="aboutTeam.html">aboutTeam</a></li>
+</ul></li>
+<li>community
+<ul>
+<li><a href="people.html">people</a></li>
+<li><a href="orgs.html">orgs</a></li>
+</ul></li>
+<li><a href="support.html">support</a></li>
+<li>avatar
+<ul>
+<li><a href="dashboardAuth.html">dashboard-auth</a> (<a href="dashboardNoAuth.html">dashboard-noAuth</a>)</li>
+<li><a href="settings.html">settings</a>
+<ul>
+<li>profile</li>
+<li>accounts</li>
+<li>email</li>
+<li>security</li>
+</ul></li>
 <li><a href="myProjects.html">myProjects</a></li>
-<li><a href="myPeople.html">myPeople</a></li>
-<li><a href="settings.html">settings</a></li>
-<li><a href="profile.html">profile</a></li>
+<li><a href="logout.html">logout</a></li>
+</ul></li>
+<li><a href="login.html">login</a></li>
+<li><a href="register.html">register</a></li>
+</ul>
+<p>Direct links:</p>
+<ul>
+<li><a href="thisProject.html">thisProject</a> from “Create project” button</li>
+<li><a href="myProjects.html">myProjects</a> page through “View all” button</li>
+<li><a href="myProjectsManage.html">manageProjects</a> page through “Edit project permissions” button</li>
+<li><a href="myProjectsAudit.html">auditProjects</a> page through “Audit my projects” button</li>
+<li><a href="search.html">search</a> page through “search people” button</li>
+<li><a href="search.html">search</a> results page of all users belonging to /my/org through “browse colleagues” button</li>
 </ul>
 </div>
 </div>
 <div id="actions" class="section level1">
 <h1>Actions</h1>
 <ul>
-<li>Create project(s)</li>
-<li>Manage people</li>
-<li>Edit profile</li>
-<li>Edit other settings</li>
-<li>Browse (public + shared) projects on Databrary</li>
-<li>Learn about Databrary</li>
+<li>Create project (modal - takes user to <a href="thisProject.html">thisProject</a> on save)</li>
+<li>View projects
+<ul>
+<li>recently updated (default)</li>
+<li>shared by others (option)</li>
+<li>belonging to specific user groups (option)</li>
+<li>belonging to specific project groups (option)</li>
+</ul></li>
+<li>Search for projects</li>
+<li>View people
+<ul>
+<li>collaborators (default)</li>
+<li>colleagues (default)</li>
+</ul></li>
+<li>Search for people</li>
+<li>View latest (public + shared) projects on Databrary</li>
+<li>~Manage people~</li>
+<li>~Edit profile~ (always available through header avatar)</li>
+<li>~Edit other settings~ (always available through header avatar)</li>
+<li>~Learn about Databrary~ (always available through header avatar)</li>
 </ul>
 </div>
 <div id="comments" class="section level1">
