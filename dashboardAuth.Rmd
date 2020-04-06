@@ -3,8 +3,16 @@ title: "DashboardAuth"
 subtitle: "*dashboard*"
 ---
 
+Dashboard overview
 ```{r, echo=FALSE}
 knitr::include_graphics("img/dashboard_a_regular.png")
+```
+
+---
+
+Dashboard linkages
+```{r, echo=FALSE}
+knitr::include_graphics("img/dashboard_a_regular_modal.png")
 ```
 
 # Purpose
@@ -35,6 +43,9 @@ It is where users land after they log-in from the Databrary home page.
 - [settings](settings.html) through "Update my profile" button
 - [search](search.html) page through "search people" button
 - [search](search.html) results page of all users belonging to /my/org through "browse colleagues" button
+- [person] public pages of other users page from the "people" section
+- [org] public page of user's own institution page from the "people" section
+- [static pages] mostly from the "support" section of the header links
 
 # Actions
 
