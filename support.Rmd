@@ -3,7 +3,7 @@ title: "support"
 ---
 
 ```{r, echo=FALSE}
-knitr::include_graphics("img/support.gif")
+knitr::include_graphics("img/support.png")
 ```
 
 # Purpose
@@ -58,7 +58,10 @@ This page provides a user access to resources to learn about Databrary or get us
   - get authorized as an Authorized Investigator
   - have a supervised user create an account and request access from their Sponsoring Authorized Investigator
   - Authorized Investigators can add Supervised Users
-  - create a project
+  - Projects
+      - create a project
+      - update the citation of my project
+      - add cited authors vs. non cited researchers
   - document permission from participants
 
   
