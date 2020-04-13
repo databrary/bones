@@ -46,7 +46,8 @@ This page provides a user access to resources to learn about Databrary or get us
   - What if I leave my institution and no longer have Authorized Investigator Status?
   
 - for Supervised Users
-  - request access from my Supervising Professor?
+  - request access from my Supervising Professor? Step by Step Instructions
+  - I want to access a specific dataset on Datbaray, How do I do this?
   
 - How to
   - get authorized as an Authorized Investigator
@@ -59,10 +60,14 @@ This page provides a user access to resources to learn about Databrary or get us
   - document permission from participants
   
 - [FAQ](https://www.databrary.org/resources/faq.html) reorganize?
+  - what if an authorized investigator is leaving their institution for another institution but should still retain authorized investigator status? 
+  - level of access for sessions vs. level of access for each specific file
+      -  if they set a sessions folder to a specific level of access, they don't need to do it again for each of the files they upload to that session
   
 - User Guide
   - How to create a new project
   - How to upload participant data
+  - What file types can be uploaded? (https://nyu.databrary.org/asset/formats)
  
 - Templates
   - IRB Application - Databrary Use
