@@ -44,6 +44,30 @@ This page provides a user access to resources to learn about Databrary or get us
   - add a supervised user to my group/lab data
   - add a supervised user to all shared Databrary data
   - What if I leave my institution and no longer have Authorized Investigator Status?
+  - what if I my institution requires me to submit an IRB just to access?  
+      - Recommended Abstract language: The purpose of this application is to access the Databrary
+(https://www.databrary.org/about/about-databrary.html), which is a digital data library specialized
+for storing, managing, preserving, analyzing, and sharing video.
+I do not currently have data to contribute to the library; however, I would like to have access to its
+contents in order to browse the available data and potentially develop a research project. Once I have
+a research proposal, I will submit a new protocol for IRB determination.  
+    - Access to Identifiers:  I will have access to  elements of dates (except for year) for dates directly related to an individual, including birth date,  Biometric identifiers, including finger and voice prints, and
+ Full face photographic images and any comparable images.  
+    - Details: The purpose of this application is to access the Databrary
+(https://www.databrary.org/about/about-databrary.html), which is a digital data library specialized
+for storing, managing, preserving, analyzing, and sharing video. I would like to have access to its
+contents in order to browse the data and potentially develop a research idea to submit for IRB
+approval in a separate application.
+
+    
+    Databrary Policy:  "Because video and audio recordings and photographs may depict faces, voices, names, or other
+personally identifying information, special care must be taken. The principles of informed consent
+enable participants to decide for themselves whether or not they will allow their data to be shared
+with other researchers for other research purposes. The people depicted must give explicit
+permission for the recordings or photographs to be shared with Databrary.
+In other data formats such as text files and spreadsheets, participants must not be denoted by names
+or initials. Personally identifying information must be removed before data are contributed."
+ 
   
 - for Supervised Users
   - request access from my Supervising Professor? Step by Step Instructions
