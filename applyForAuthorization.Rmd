@@ -19,6 +19,9 @@ This page allows a user to apply for authorization from an institution.
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 - [applyForAuthorization](applyForAuthorization.html)
 
 # Actions

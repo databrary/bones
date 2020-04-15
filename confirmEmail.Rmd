@@ -18,6 +18,9 @@ The registration confirmation link expires, so this dialog also allows a user to
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 # Actions
 
 - Close window

@@ -19,11 +19,14 @@ This modal allows users to upload files to a Project
 
 ## From
 
-- [projectPage](projectPage.html)
+- [thisProjectPage](thisProjectPage.html)
 
 ## To
 
-- - [projectPage](projectPage.html)
+```{r child = 'headerLinks.Rmd'}
+```
+
+- [thisProjectPage](thisProjectPage.html)
 
 # Actions
 

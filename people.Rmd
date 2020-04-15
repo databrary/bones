@@ -23,6 +23,9 @@ See <https://nyu.databrary.org/search?volume=false&f.party_authorization=4&f.par
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 # Actions
 
 - Browse

@@ -23,6 +23,9 @@ This page provides information about the Databrary project.
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 # Comments
 
 - Can we combine this with [aboutDatabrary](aboutDatabrary.html)?

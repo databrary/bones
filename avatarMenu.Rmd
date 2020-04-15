@@ -1,0 +1,47 @@
+---
+title: "avatarMenu"
+---
+
+```{r, echo=FALSE, fig.align='center', out.width="5%"}
+knitr::include_graphics("img/avatar.png")
+```
+
+# Purpose
+
+This menu appears on the site-wide toolbar.
+It shows the user's avatar, and it provides access to other functions.
+
+# Routes
+
+- databrary.org
+
+# From
+
+- [databrary.org](index.html)
+
+# To
+
+```{r child = 'headerLinks.Rmd'}
+```
+
+# Actions/Implementations
+
+- Navigate to [Dashboard](dashboardAuth.html) or [dashboardNoAuth](dashboardNoAuth.html)
+- Navigate to [Settings](settings.html)
+- ~~Navigate to [My Projects](myProjects.html)~~
+- [Log out](logout.html)
+  - Or have separate Login/Logout item on menu bar?
+- ~~Create New Project?~~
+  - ~~DB1.0 permits this.~~
+  
+```{r, echo=FALSE, fig.align='center', out.height="5%"}
+knitr::include_graphics("img/db10-avatar.png")
+```
+
+# Comments
+
+- KoboToolbox.org includes links to the project's terms and privacy policy.
+
+```{r, echo=FALSE, out.width="25%", fig.align='center'}
+knitr::include_graphics("img/koboToolbox.png")
+```

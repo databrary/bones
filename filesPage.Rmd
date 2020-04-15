@@ -26,6 +26,9 @@ This is where users edit and upload files.
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 - [projectPage](projectPage.html)
 
 # Actions

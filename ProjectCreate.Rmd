@@ -19,12 +19,15 @@ This page allows users to create a new Project.
 
 ## From
 
-- [projectPage](projectPage.html)
+- [thisProjectPage](thisProjectPage.html)
 - [myProjects](myProjects.html)
 
 ## To
 
-- [projectPage](projectPage.html) for newly created project, e.g., project/<id>
+```{r child = 'headerLinks.Rmd'}
+```
+
+- [thisProjectPage](thisProjectPage.html) for newly created project, e.g., project/<id>
 
 # Actions
 
