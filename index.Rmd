@@ -4,11 +4,12 @@ title: "databrary.org"
 
 ```{r, echo=FALSE}
 knitr::include_graphics("img/index.png")
+knitr::include_graphics("img/index_footer.png")
 ```
 
 # Purpose
 
-This is the Databrary home page.
+This is the Databrary home page with footer.
 
 # Routes
 
