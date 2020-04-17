@@ -26,17 +26,11 @@ This page provides a user access to resources to learn about Databrary or get us
 
 # Actions
 
+```{r, child="forAOR.Rmd"}
+```
 
-- for Institution Authorized Organizational Representatives
-  - Databrary Access Agreement
-  - Statement of Rights and Responsibilities - Annex I
-  - Additional Authorized Investigators - Annex II
-  - Databrary Access Guide - Annex III
-  - Terms of Use
-  - Privacy Policy
-  - Data Security
-    - Data and metadata stored in Databrary are subject to the security policies and best practices implemented by NYU. For more information about these policies and services, please visit NYU ITS Computer & Network Security at http://www.nyu.edu/its/security/.
-  - [User Guide - for institutions](https://www.databrary.org/resources/guide/institutions.html)
+```{r, child="forIRB.Rmd"}
+```
   
 - for IRB 
   - Rules for Ethics oversight vs. approval - from ARS email
