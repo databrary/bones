@@ -27,6 +27,9 @@ It also allows editing permissions for multiple people at a time.
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 - haven't edited this yet
 - [people](myPeople.html)
 - [settings](settings.html)

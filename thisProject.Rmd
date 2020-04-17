@@ -1,5 +1,5 @@
 ---
-title: "projectPage"
+title: "thisProjectPage"
 ---
 
 ```{r, echo=FALSE}
@@ -25,6 +25,9 @@ This page is the "face" of individual projects on Databrary.
 - [ProjectCreate](ProjectCreate.html)
 
 ## To
+
+```{r child = 'headerLinks.Rmd'}
+```
 
 - editContributors
 - [copyProject](copyProject.html)

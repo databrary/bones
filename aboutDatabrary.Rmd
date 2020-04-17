@@ -23,6 +23,9 @@ This page provides information about Databrary.
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 # Comments
 
 - About Databrary should be called What is Databrary?

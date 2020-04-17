@@ -1,5 +1,5 @@
 ---
-title: "my_noAuth"
+title: "dashboardNoAuth"
 subtitle: "*dashboard*"
 ---
 
@@ -18,31 +18,46 @@ This page has special features for users who are not authorized.
 ## API
 
 - databrary.org/my
-- nyu.databrary.org/my
 - databrary.org/dashboard
-- nyu.databrary.org/dashboard
 
 ## From
 
 - [login](login.html)
+- [databrary.org](index.html)
 
 ## To
 
-- [applyForAuthorization](applyForAuthorization.html)
-- [myProjects](myProjects.html)
-- [myPeople](myPeople.html)
-- [settings](settings.html)
-- [profile](profile.html)
+```{r child = 'headerLinks.Rmd'}
+```
+
+_(We need to finalize our permissions matrix to nail this piece)_
+- [thisProject](thisProject.html) from "Create project" button
+- [manageProjects](myProjectsManage.html) page through "Edit project permissions" button
+- [auditProjects](myProjectsAudit.html) page through "Audit my projects" button
+- [settings](settings.html) through "Update my profile" button
+- [search](search.html) page through "search people" button
+- [search](search.html) results page of all users belonging to /my/org through "browse colleagues" button
 
 # Actions
 
-- Create (private) project(s)
-- Manage people
-- Apply for authorization
-- Edit profile
-- Edit other settings
-- Browse public projects on Databrary
-- Learn about Databrary
+_(We need to finalize our permissions matrix to nail this piece)_
+- Create project (modal - takes user to [thisProject](thisProject.html) on save)
+- View projects
+  - recently updated (default)
+  - shared by others (option)
+  - belonging to specific user groups (option)
+  - belonging to specific project groups (option)
+- Search for projects
+- Update profile button takes user to [settings](settings.html)
+- View people
+  - collaborators (default)
+  - colleagues (default)
+- Search for people
+- View latest (public + shared) projects on Databrary
+- ~Manage people~
+- ~Edit profile~ (always available through header avatar)
+- ~Edit other settings~ (always available through header avatar)
+- ~Learn about Databrary~  (always available through header avatar)
 
 # Comments
 

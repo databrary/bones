@@ -22,23 +22,9 @@ This is the Databrary home page with footer.
 
 ## To
 
-- [search](search.html)
-- [news](news.html)
-- about
-    - [aboutDatabrary](aboutDatabrary.html)
-    - [aboutProject](aboutProject.html)
-    - [aboutTeam](aboutTeam.html)
-- community
-    - [people](people.html)
-    - [orgs](orgs.html)
-- [support](support.html)
-- avatar
-    - [dashboard-auth](dashboardAuth.html) ([dashboard-noAuth](dashboardNoAuth.html))
-    - [settings](settings.html)
-    - [myProjects](myProjects.html)
-    - [logout](logout.html)
-- [login](login.html)
-- [register](register.html)
+```{r child = 'headerLinks.Rmd'}
+```
+
 
 # Comments
 - If user is logged in, should this page direct to databrary/org/my ?

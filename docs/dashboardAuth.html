@@ -272,8 +272,23 @@ $(document).ready(function () {
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">Databrary</a>
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Databrary
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="dashboardAuth.html">&lt;LoggedIn state&gt; Authorized user</a>
+    </li>
+    <li>
+      <a href="dashboardNoAuth.html">&lt;LoggedIn state&gt; Unauthorized user</a>
+    </li>
+    <li>
+      <a href="index.html">&lt;LoggedOut state&gt;</a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="search.html">Search</a>
@@ -292,7 +307,7 @@ $(document).ready(function () {
       <a href="aboutDatabrary.html">Databrary</a>
     </li>
     <li>
-      <a href="aboutProject.html">Project</a>
+      <a href="aboutProject.html">Project - confusing term</a>
     </li>
     <li>
       <a href="aboutTeam.html">Team</a>
@@ -322,23 +337,8 @@ $(document).ready(function () {
         <li>
   <a href="notifications.html">Notifications</a>
 </li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Avatar
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="settings.html">Account Settings</a>
-    </li>
-    <li>
-      <a href="landingPageAuth.html">My Projects</a>
-    </li>
-    <li>
-      <a href="logout.html">Logout</a>
-    </li>
-  </ul>
+<li>
+  <a href="avatarMenu.html">Avatar</a>
 </li>
 <li>
   <a href="login.html">Login</a>
@@ -367,7 +367,9 @@ $(document).ready(function () {
 </div>
 
 
-<p><img src="img/dashboard_a_regular.png" /><!-- --></p>
+<p>Dashboard overview <img src="img/dashboard_a_regular.png" /><!-- --></p>
+<hr />
+<p>Dashboard linkages <img src="img/dashboard_a_regular_modal.png" /><!-- --></p>
 <div id="purpose" class="section level1">
 <h1>Purpose</h1>
 <p>This is a user’s dashboard or primary landing page. It is where users land after they log-in from the Databrary home page.</p>
@@ -378,9 +380,7 @@ $(document).ready(function () {
 <h2>API</h2>
 <ul>
 <li>databrary.org/my</li>
-<li>nyu.databrary.org/my</li>
 <li>databrary.org/dashboard</li>
-<li>nyu.databrary.org/dashboard</li>
 </ul>
 </div>
 <div id="from" class="section level2">
@@ -392,23 +392,76 @@ $(document).ready(function () {
 </div>
 <div id="to" class="section level2">
 <h2>To</h2>
+<p>Header links:</p>
 <ul>
+<li><a href="search.html">search</a></li>
+<li><a href="news.html">news</a></li>
+<li>about
+<ul>
+<li><a href="aboutDatabrary.html">aboutDatabrary</a></li>
+<li><a href="aboutProject.html">aboutProject</a> <em>consider calling this something other than “project”?</em></li>
+<li><a href="aboutTeam.html">aboutTeam</a></li>
+</ul></li>
+<li>community
+<ul>
+<li><a href="people.html">people</a></li>
+<li><a href="orgs.html">orgs</a></li>
+</ul></li>
+<li><a href="support.html">support</a></li>
+<li>avatar
+<ul>
+<li><a href="dashboardAuth.html">dashboard-auth</a> (<a href="dashboardNoAuth.html">dashboard-noAuth</a>)</li>
+<li><a href="settings.html">settings</a>
+<ul>
+<li>profile</li>
+<li>accounts</li>
+<li>email</li>
+<li>security</li>
+</ul></li>
 <li><a href="myProjects.html">myProjects</a></li>
-<li><a href="myPeople.html">myPeople</a></li>
-<li><a href="settings.html">settings</a></li>
-<li><a href="profile.html">profile</a></li>
+<li><a href="logout.html">logout</a></li>
+</ul></li>
+<li><a href="login.html">login</a></li>
+<li><a href="register.html">register</a></li>
+</ul>
+<p>Direct links:</p>
+<ul>
+<li><a href="thisProject.html">thisProject</a> from “Create project” button</li>
+<li><a href="myProjectsManage.html">manageProjects</a> page through “Edit project permissions” button</li>
+<li><a href="myProjectsAudit.html">auditProjects</a> page through “Audit my projects” button</li>
+<li><a href="settings.html">settings</a> through “Update my profile” button</li>
+<li><a href="search.html">search</a> page through “search people” button</li>
+<li><a href="search.html">search</a> results page of all users belonging to /my/org through “browse colleagues” button</li>
+<li>[person] public pages of other users page from the “people” section</li>
+<li>[org] public page of user’s own institution page from the “people” section</li>
+<li>[static pages]</li>
 </ul>
 </div>
 </div>
 <div id="actions" class="section level1">
 <h1>Actions</h1>
 <ul>
-<li>Create project(s)</li>
-<li>Manage people</li>
-<li>Edit profile</li>
-<li>Edit other settings</li>
-<li>Browse (public + shared) projects on Databrary</li>
-<li>Learn about Databrary</li>
+<li>Create project (modal - takes user to <a href="thisProject.html">thisProject</a> on save)</li>
+<li>View projects
+<ul>
+<li>recently updated (default)</li>
+<li>shared by others (option)</li>
+<li>belonging to specific user groups (option)</li>
+<li>belonging to specific project groups (option)</li>
+</ul></li>
+<li>Search for projects</li>
+<li>Update profile button takes user to <a href="settings.html">settings</a></li>
+<li>View people
+<ul>
+<li>collaborators (default)</li>
+<li>colleagues (default)</li>
+</ul></li>
+<li>Search for people</li>
+<li>View latest (public + shared) projects on Databrary</li>
+<li>~Manage people~</li>
+<li>~Edit profile~ (always available through header avatar)</li>
+<li>~Edit other settings~ (always available through header avatar)</li>
+<li>~Learn about Databrary~ (always available through header avatar)</li>
 </ul>
 </div>
 <div id="comments" class="section level1">
@@ -416,6 +469,126 @@ $(document).ready(function () {
 <ul>
 <li>if (userAuthorized == FALSE) {show <a href="dashboardNoAuth.html">dashboardNoAuth</a>]} else {show <a href="dashboardAuth.html">dashboardAuth</a>)}</li>
 </ul>
+</div>
+<div id="quasar" class="section level1">
+<h1>Quasar</h1>
+<ul>
+<li>Here’s the Quasar/CodePen code for that drawer layout piece:</li>
+</ul>
+<hr />
+<!--
+  Forked from:
+  https://quasar.dev/layout/drawer#Example--Header-Picture
+-->
+<div id="q-app">
+<div class="q-pa-md">
+<pre><code>&lt;q-layout view=&quot;lHh Lpr lff&quot; container style=&quot;height: 600px&quot; class=&quot;shadow-2 rounded-borders&quot;&gt;
+  &lt;q-header elevated class=&quot;bg-cyan-8&quot;&gt;
+    &lt;q-toolbar&gt;
+      &lt;q-toolbar-title&gt;Projects&lt;/q-toolbar-title&gt;
+      &lt;q-btn flat @click=&quot;drawer = !drawer&quot; round dense icon=&quot;menu&quot;&gt;&lt;/q-btn&gt;
+    &lt;/q-toolbar&gt;
+  &lt;/q-header&gt;
+
+  &lt;q-drawer
+    v-model=&quot;drawer&quot;
+    show-if-above
+    :width=&quot;200&quot;
+    :breakpoint=&quot;400&quot;
+  &gt;
+    &lt;q-scroll-area style=&quot;height: calc(100% - 150px); margin-top: 150px; border-right: 1px solid #ddd&quot;&gt;
+      &lt;q-list padding&gt;
+        &lt;q-item clickable v-ripple&gt;
+          &lt;q-item-section avatar&gt;
+            &lt;q-icon name=&quot;add&quot;&gt;&lt;/q-icon&gt;
+          &lt;/q-item-section&gt;
+
+          &lt;q-item-section&gt;
+            CREATE NEW
+          &lt;/q-item-section&gt;
+        &lt;/q-item&gt;
+
+        &lt;q-item active clickable v-ripple&gt;
+          &lt;q-item-section avatar&gt;
+            &lt;q-icon name=&quot;history&quot;&gt;&lt;/q-icon&gt;
+          &lt;/q-item-section&gt;
+
+          &lt;q-item-section&gt;
+            Recently updated
+          &lt;/q-item-section&gt;
+        &lt;/q-item&gt;
+
+        &lt;q-item clickable v-ripple&gt;
+          &lt;q-item-section avatar&gt;
+            &lt;q-icon name=&quot;work&quot;&gt;&lt;/q-icon&gt;
+          &lt;/q-item-section&gt;
+
+          &lt;q-item-section&gt;
+            Projects I own
+          &lt;/q-item-section&gt;
+        &lt;/q-item&gt;
+
+        &lt;q-item clickable v-ripple&gt;
+          &lt;q-item-section avatar&gt;
+            &lt;q-icon name=&quot;supervisor_account&quot;&gt;&lt;/q-icon&gt;
+          &lt;/q-item-section&gt;
+
+          &lt;q-item-section&gt;
+            Shared with me
+          &lt;/q-item-section&gt;
+        &lt;/q-item&gt;
+
+        &lt;q-item clickable v-ripple&gt;
+          &lt;q-item-section avatar&gt;
+            &lt;q-icon name=&quot;supervised_user_circle&quot;&gt;&lt;/q-icon&gt;
+          &lt;/q-item-section&gt;
+
+          &lt;q-item-section&gt;
+            User groups
+          &lt;/q-item-section&gt;
+        &lt;/q-item&gt;
+
+        &lt;q-item clickable v-ripple&gt;
+          &lt;q-item-section avatar&gt;
+            &lt;q-icon name=&quot;bookmarks&quot;&gt;&lt;/q-icon&gt;
+          &lt;/q-item-section&gt;
+          
+          &lt;q-item-section&gt;
+            Project groups
+          &lt;/q-item-section&gt;
+        &lt;/q-item&gt;
+
+      &lt;/q-list&gt;
+    &lt;/q-scroll-area&gt;
+
+    &lt;q-img class=&quot;absolute-top&quot; src=&quot;https://cdn.quasar.dev/img/material.png&quot; style=&quot;height: 150px&quot;&gt;
+      &lt;div class=&quot;absolute-bottom bg-transparent&quot;&gt;
+        &lt;q-avatar size=&quot;56px&quot; class=&quot;q-mb-sm&quot;&gt;
+          &lt;img src=&quot;https://cdn.quasar.dev/img/boy-avatar.png&quot;&gt;
+        &lt;/q-avatar&gt;
+        &lt;div class=&quot;text-weight-bold&quot;&gt;Ruth Ginsburg&lt;/div&gt;
+        &lt;div&gt;University of Michigan&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/q-img&gt;
+  &lt;/q-drawer&gt;
+
+  &lt;q-page-container&gt;
+    &lt;q-page padding&gt;
+      &lt;p v-for=&quot;n in 4&quot; :key=&quot;n&quot;&gt;
+            &lt;q-avatar rounded size=&quot;100px&quot; font-size=&quot;82px&quot; color=&quot;teal&quot; text-color=&quot;white&quot; icon=&quot;directions&quot;&gt;&lt;/q-avatar&gt; 
+            &lt;q-avatar rounded size=&quot;24px&quot; color=&quot;orange&quot;&gt;E&lt;/q-avatar&gt;
+            &lt;q-avatar rounded size=&quot;24px&quot; color=&quot;orange&quot;&gt;V&lt;/q-avatar&gt;
+        Project name &amp; description&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 
+            &lt;q-avatar rounded size=&quot;100px&quot; font-size=&quot;82px&quot; color=&quot;teal&quot; text-color=&quot;white&quot; icon=&quot;directions&quot;&gt;&lt;/q-avatar&gt; 
+            &lt;q-avatar rounded size=&quot;24px&quot; color=&quot;orange&quot;&gt;E&lt;/q-avatar&gt;
+            &lt;q-avatar rounded size=&quot;24px&quot; color=&quot;orange&quot;&gt;V&lt;/q-avatar&gt;
+        Project name &amp; description&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;           &lt;/p&gt;
+    &lt;/q-page&gt;
+  &lt;/q-page-container&gt;
+&lt;/q-layout&gt;</code></pre>
+</div>
+</div>
+<hr />
 </div>
 
 </br>

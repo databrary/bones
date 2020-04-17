@@ -24,6 +24,9 @@ Users search for Projects or Files here.
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 # Actions
 
 - Search for/filter Projects

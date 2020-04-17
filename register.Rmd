@@ -23,6 +23,9 @@ This page (modal dialog) allows a user to register for Databrary.
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 - [confirmEmail](confirmEmail.html)
 
 # Actions

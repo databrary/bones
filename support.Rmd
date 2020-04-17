@@ -24,6 +24,9 @@ This page provides a user access to resources to learn about Databrary or get us
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 # Actions
 
 
@@ -43,6 +46,7 @@ This page provides a user access to resources to learn about Databrary or get us
   - [Work with IRB](https://www.databrary.org/resources/policies/work-with-irb.html)
   
 - for Authorized Investigators
+
   - add a supervised user to my group/lab data
   - add a supervised user to all shared Databrary data
   - What if I leave my institution and no longer have Authorized Investigator Status?
@@ -70,11 +74,13 @@ permission for the recordings or photographs to be shared with Databrary.
 In other data formats such as text files and spreadsheets, participants must not be denoted by names
 or initials. Personally identifying information must be removed before data are contributed."
  
+
   
 - for Supervised Users
   - request access from my Supervising Professor? Step by Step Instructions
   - I want to access a specific dataset on Datbaray, How do I do this?
   
+
 - for Participants Choosing to Share Data
   - Participant Bill of Rights
 As a person who shares information with Databrary, you have the right to:
@@ -100,7 +106,9 @@ If I have any questions or concerns I can contact Databrary staff by email at et
       - update the citation of my project
       - add cited authors vs. non cited researchers
   - document permission from participants
+
   
+
 - [FAQ](https://www.databrary.org/resources/faq.html) reorganize?
   - what if an authorized investigator is leaving their institution for another institution but should still retain authorized investigator status? 
   - level of access for sessions vs. level of access for each specific file
@@ -111,14 +119,17 @@ If I have any questions or concerns I can contact Databrary staff by email at et
   - How to upload participant data
   - What file types can be uploaded? (https://nyu.databrary.org/asset/formats)
  
+
 - Templates (upload the updated templates in .doc and .pdf)
   - IRB Application - Databrary Use
   - Data Management Plan
   - Lab Staff Access Agreement
   - Video Data Release, Lab Staff
   - Sharing Release, Video Data Release, Participants
+
   
 - [Glossary](https://docs.google.com/document/d/1pP7L-fp31S8s3uufObLT_Na57OMf0znO1ugGuVfNieM/edit#heading=h.757eov12hzcx)
+
 
 - Contact Databrary
 

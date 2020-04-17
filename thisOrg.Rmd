@@ -22,6 +22,9 @@ See <https://nyu.databrary.org/party/12>
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 # Actions
 
 - Browse users

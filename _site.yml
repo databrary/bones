@@ -3,7 +3,13 @@ navbar:
   title: " "
   left:
     - text: "Databrary"
-      href: index.html
+      menu:
+        - text: "<LoggedIn state> Authorized user"
+          href: dashboardAuth.html
+        - text: "<LoggedIn state> Unauthorized user"
+          href: dashboardNoAuth.html
+        - text: "<LoggedOut state>"
+          href: index.html
     - text: "Search"
       href: search.html
     - text: "News"
@@ -12,7 +18,7 @@ navbar:
       menu:
         - text: "Databrary"
           href: aboutDatabrary.html
-        - text: "Project"
+        - text: "Project - confusing term"
           href: aboutProject.html
         - text: "Team"
           href: aboutTeam.html
@@ -28,13 +34,7 @@ navbar:
     - text: "Notifications"
       href: notifications.html
     - text: "Avatar"
-      menu:
-        - text: "Account Settings"
-          href: settings.html
-        - text: "My Projects"
-          href: landingPageAuth.html
-        - text: "Logout"
-          href: logout.html
+      href: avatarMenu.html
     - text: "Login"
       href: login.html
     - text: "Register"

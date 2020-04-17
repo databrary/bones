@@ -27,6 +27,9 @@ This page allows the user to edit details about their account.
 
 ## To
 
+```{r child = 'headerLinks.Rmd'}
+```
+
 - [profile](profile.html)
 - [account](account.html)
 - [emails](emails.html)
