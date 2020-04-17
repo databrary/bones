@@ -1,0 +1,31 @@
+---
+title: "for AOR"
+author: "Andrea R Seisler"
+date: "4/17/2020"
+output: html_document
+---
+
+## for Institution Authorized Organizational Representatives
+
+### Templates
+
+- Databrary Access Agreement
+
+- Statement of Rights and Responsibilities - Annex I
+
+- Additional Authorized Investigators - Annex II
+
+- Databrary Access Guide - Annex III
+
+### Policies
+
+- Terms of Use
+
+- Privacy Policy
+
+- Data Security
+
+Data and metadata stored in Databrary are subject to the security policies and best practices implemented by NYU. For more information about these policies and services, please visit NYU ITS Computer & Network Security at http://www.nyu.edu/its/security/.
+
+- [User Guide - for institutions](https://www.databrary.org/resources/guide/institutions.html)
+
