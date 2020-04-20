@@ -1,0 +1,15 @@
+---
+title: "forSupervisedUsers"
+author: "Andrea R Seisler"
+date: "4/20/2020"
+output: html_document
+---
+
+## for Supervised Users  
+
+A Supevised user is
+
+### How do I request access from my Supervising Professor?    
+Add Step by Step Instructions  
+
+### I want to access a specific dataset on Datbaray, How do I do this?  

@@ -1,0 +1,12 @@
+---
+title: "templates"
+author: "Andrea R Seisler"
+date: "4/20/2020"
+output: html_document
+---
+## Templates (upload the updated templates in .doc and .pdf)
+  - IRB Application - Databrary Use
+  - Data Management Plan
+  - Lab Staff Access Agreement
+  - Video Data Release, Lab Staff
+  - Sharing Release, Video Data Release, Participants

@@ -1,0 +1,21 @@
+---
+title: "Contact Databrary"
+author: "Andrea R Seisler"
+date: "4/20/2020"
+output: html_document
+---
+
+## Contact Databrary
+
+- for general questions email contact@databrary.org
+- for questions regarding your authorization email authorize@databrary.org
+- for questions as a research participant email ethics@databrary.org
+- for questions regarding our website contact feedback@databrary.org
+
+
+Our Physical Address
+
+Databrary  
+4 Washington Place, Room 409   
+New York, NY 10003  
+212.998.5800  

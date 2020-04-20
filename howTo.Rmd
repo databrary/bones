@@ -1,0 +1,28 @@
+---
+title: "HowTo"
+author: "Andrea R Seisler"
+date: "4/20/2020"
+output: html_document
+---
+
+## How to
+
+### Get Authorized
+- get authorized as an Authorized Investigator
+
+- have a supervised user create an account and request access from their Sponsoring Authorized Investigator
+
+- can an Authorized Investigator add Supervised Users
+
+### Create/Edit Projects
+
+- create a new project
+- update the citation of my project
+- add cited authors vs. non cited researchers
+- upload participant data
+- What file types can be uploaded? (https://nyu.databrary.org/asset/formats)
+
+### document permission from participants
+
+- insert link to participant data sharing release form
+

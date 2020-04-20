@@ -1,0 +1,12 @@
+---
+title: "FAQ"
+author: "Andrea R Seisler"
+date: "4/20/2020"
+output: html_document
+---
+
+## [FAQ](https://www.databrary.org/resources/faq.html) reorganize?
+
+- what if an authorized investigator is leaving their institution for another institution but should still retain authorized investigator status? 
+-  level of access for sessions vs. level of access for each specific file
+if they set a sessions folder to a specific level of access, they don't need to do it again for each of the files they upload to that session
