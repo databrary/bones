@@ -10,10 +10,12 @@ knitr::include_graphics("img/dashboard_a_regular.png")
 
 ---
 
+<!-- 
 Dashboard linkages
 ```{r, echo=FALSE}
 knitr::include_graphics("img/dashboard_a_regular_modal.png")
 ```
+-->
 
 # Purpose
 
