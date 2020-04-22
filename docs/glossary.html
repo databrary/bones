@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>glossary</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/ionicons-2.0.1/css/ionicons.min.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"> </a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Databrary
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="dashboardAuth.html">&lt;LoggedIn state&gt; Authorized user</a>
+    </li>
+    <li>
+      <a href="dashboardNoAuth.html">&lt;LoggedIn state&gt; Unauthorized user</a>
+    </li>
+    <li>
+      <a href="index.html">&lt;LoggedOut state&gt;</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="search.html">Search</a>
+</li>
+<li>
+  <a href="news.html">News</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    About
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="aboutDatabrary.html">Databrary</a>
+    </li>
+    <li>
+      <a href="aboutProject.html">Project - confusing term</a>
+    </li>
+    <li>
+      <a href="aboutTeam.html">Team</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Community
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="people.html">People</a>
+    </li>
+    <li>
+      <a href="orgs.html">Organizations</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="support.html">Support</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="notifications.html">Notifications</a>
+</li>
+<li>
+  <a href="avatarMenu.html">Avatar</a>
+</li>
+<li>
+  <a href="login.html">Login</a>
+</li>
+<li>
+  <a href="register.html">Register</a>
+</li>
+<li>
+  <a href="https://github.com/databrary">
+    <span class="ion ion-social-github"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">glossary</h1>
+
+</div>
+
+
+<div id="glossary" class="section level2">
+<h2>Glossary</h2>
+<ul>
+<li>All glossary items from [New Glossary](<a href="https://docs.google.com/document/d/1pP7L-fp31S8s3uufObLT_Na57OMf0znO1ugGuVfNieM/edit#heading=h.757eov12hzcx" class="uri">https://docs.google.com/document/d/1pP7L-fp31S8s3uufObLT_Na57OMf0znO1ugGuVfNieM/edit#heading=h.757eov12hzcx</a> and <a href="https://www.databrary.org/resources/definitions.html">Current Glossary</a> have been merged in this document</li>
+<li>Questions:
+<ul>
+<li>Should volume be changed to project in reference to all DB 2.0 language?<br />
+</li>
+<li>Are we getting rid of the term Collaborator?</li>
+<li>Do we need to explain that DB users added to a specific project by an authorized investigator that do not have a sponsor will be automatically added to the Supervised User list of that authorized investigator?</li>
+</ul></li>
+</ul>
+<div id="entities-people-or-organizations" class="section level3">
+<h3>Entities (people or organizations)</h3>
+<div id="supervised-user-db1.0-name-affiliate" class="section level4">
+<h4>Supervised User (DB1.0 name = Affiliate)</h4>
+<p>A person who conducts research under an Authorized Investigator’s sponsorship and supervision and who has been granted access to Databrary by the Authorized Investigator. In most cases, Affiliates are students or research staff and are not eligible for Authorized Investigator status. (in the proposed Annex III)</p>
+<p>An individual, affiliated with an authorized investigator who operates under that Investigator’s sponsorship and supervision. The access privileges of Affiliates are under the control of one or more authorized investigators.</p>
+</div>
+<div id="authorized-investigator" class="section level4">
+<h4>Authorized investigator</h4>
+<p>An individual who has permission from an institution to conduct independent research, who has received authorization through their institution and from Databrary to view, download, and contribute Data.</p>
+<p>An employee of an institution who has the background and training in scientific and administrative oversight necessary to conduct and manage research. Institutions determine who may be eligible to conduct independent research, but this typically includes tenure-track faculty (Instructor through Professor, sometimes Emeritus), research or clinical faculty, and may include archivists, curators, and librarians. Research Associates, Research Assistants, and other staff are not considered to be independent investigators, and therefore are not typically granted permission to conduct independent research.</p>
+</div>
+<div id="sponsor" class="section level4">
+<h4>Sponsor</h4>
+<p>An individual or institution that allows access to some Databrary resource to another individual or institution. For example, Rick Gilmore is sponsored by Penn State, and is also sponsored by Karen Adolph and Stacey Dusing. In turn, Rick sponsors Andrea Seisler, his undergrad RAs, a grad student, and some other collaborators.</p>
+</div>
+<div id="investigators" class="section level4">
+<h4>Investigators</h4>
+<p>In a Volume, people who have read/write/share privileges. Investigators need not be Authorized Investigators; they can be Affiliates.</p>
+</div>
+<div id="collaborators" class="section level4">
+<h4>Collaborator(s)</h4>
+<p>On DB1.0 a volume lists users who are not the volume’s owners under a Collaborators section. Functionally, Collaborators are granted access to a volume by a Volume Owner.</p>
+</div>
+<div id="authorized-organizational-representative-aor" class="section level4">
+<h4>Authorized Organizational Representative (AOR)</h4>
+<p>A person granted authority by an Institution to sign the Databrary Access Agreement on behalf of the Institution and thereby bind the Institution to the terms of the Databary Access Agreement. (in the proposed Annex III)</p>
+</div>
+</div>
+<div id="documentation-link-to-documents-in-this-section" class="section level3">
+<h3>Documentation (link to documents in this section?)</h3>
+<div id="policy-documents" class="section level4">
+<h4>Policy documents</h4>
+<div id="databrary-access-agreement" class="section level5">
+<h5>Databrary Access Agreement</h5>
+<p>The Databrary Access Agreement between an Authorized Investigator and his or her Institution and New York University (NYU) on behalf of Databrary.</p>
+</div>
+<div id="annex-i" class="section level5">
+<h5>Annex I</h5>
+</div>
+<div id="annex-ii" class="section level5">
+<h5>Annex II</h5>
+</div>
+<div id="annex-iii" class="section level5">
+<h5>Annex III</h5>
+</div>
+<div id="sharing-release-template" class="section level5">
+<h5>Sharing Release Template</h5>
+<p>The documentation participants complete to log the Release Level they are granting permission for their data.</p>
+</div>
+<div id="databrary-user-guide" class="section level5">
+<h5>Databrary User Guide</h5>
+<p>The documentation of functionality instructions of Databrary.</p>
+</div>
+</div>
+</div>
+<div id="data" class="section level3">
+<h3>Data</h3>
+<div id="de-identified-data" class="section level4">
+<h4>De-identified data</h4>
+<p>Collections of information from which all identifiers have been removed or altered in such a way as to prevent the identification of individual persons.</p>
+</div>
+<div id="excerpts" class="section level4">
+<h4>Excerpts</h4>
+<p>A still frame or a selection from a larger recording that illustrates a particular point or demonstrates a finding. Typically no more than a few seconds or minutes in length, substantially less than the full length of a recording.</p>
+<p>Investigators or affiliates may select segments of a recording as an excerpt for informational or educational purposes if the depicted individuals have granted appropriate release level for using selected excerpts.</p>
+</div>
+<div id="identifiable-data" class="section level4">
+<h4>Identifiable data</h4>
+<p>Collections of information that might be used singly or in combination to determine the identity of research participants or other individuals depicted in recordings or data.</p>
+</div>
+<div id="non-identifiable-data" class="section level4">
+<h4>Non-identifiable data</h4>
+<p>Collections of information that do not contain identifiable data.</p>
+</div>
+<div id="highlights" class="section level4">
+<h4>Highlights</h4>
+<p>Assets or parts of an asset (video clip) highlighted by the investigator to feature on the volume page.</p>
+</div>
+<div id="recordings" class="section level4">
+<h4>Recordings</h4>
+<p>Video or audio recordings or still (photographic) images.</p>
+</div>
+<div id="materials" class="section level4">
+<h4>Materials</h4>
+<p>Files related to the volume such as stimuli.</p>
+</div>
+</div>
+<div id="project-db1.0-volume" class="section level3">
+<h3>Project (DB1.0 = Volume)</h3>
+<p>A collection of related data and materials.</p>
+<div id="sessions" class="section level4">
+<h4>Sessions</h4>
+<p>A session is a unit within a volume which consists of a set of videos and records. A session most often represents a single visit by a participant or set of particapants interacting together in a study.</p>
+</div>
+<div id="spreadsheet" class="section level4">
+<h4>Spreadsheet</h4>
+<p>A collection of sessions and materials folders that contain data files like videos, coding spreadsheets, and documents.</p>
+<p>Collections of one or more files (assets) are organized into slots, and the slots have system-wide unique integer IDs.</p>
+<p>In addition, the spreadsheet can contain information about the participants, the tasks, the settings, or other user-defined information about data collected. Information about the participants, tasks, settings are organized into arrays called measures.</p>
+<p>The UI represents session and materials information as a spreadsheet, and enables the user to download the participant-, task-, and setting data in a tidy, rectangular CSV that can be easily imported into a spreadsheet application.</p>
+</div>
+<div id="measure" class="section level4">
+<h4>Measure</h4>
+</div>
+<div id="asset" class="section level4">
+<h4>Asset</h4>
+<p>A file (image, audio or video recording, or document) that is associated with a session or materials folder (in a slot). Assets have system-wide unique integer IDs.</p>
+</div>
+<div id="segment" class="section level4">
+<h4>Segment</h4>
+<p>A sample of time that marks a portion of an audio or video recording. The entire recording may be selected or a portion defined by separate start and end times (in milliseconds) measured from the start of the session.</p>
+</div>
+<div id="keywords" class="section level4">
+<h4>Keywords</h4>
+<p>Investigator contributed terms or keywords that can be attached to a volume, a session, or a record or video within a session. Only owners of a volume can add Keywords to that volume. For example, these might be the keywords that were also used for a published article related to the volume.</p>
+</div>
+<div id="tags" class="section level4">
+<h4>Tags</h4>
+<p>Community contributed terms or keywords that can be attached to a volume, a session, or a record or video within a session. Tags help users to find content of interest.</p>
+</div>
+</div>
+<div id="release-levels" class="section level3">
+<h3>Release Levels</h3>
+<div id="unknown" class="section level4">
+<h4>Unknown</h4>
+<p>Consent missing or not obtained. This content is not shared and is restricted to collaborators.</p>
+</div>
+<div id="private" class="section level4">
+<h4>Private</h4>
+<p>This content is not shared and is restricted to collaborators.</p>
+</div>
+<div id="authorized-users" class="section level4">
+<h4>Authorized Users</h4>
+<p>This content is restricted to authorized Databrary users and may not be redistributed in any form.</p>
+</div>
+<div id="learning-audiences" class="section level4">
+<h4>Learning Audiences</h4>
+<p>This content is restricted to authorized Databrary users, who may use clips or images from it in presentations for informational or educational purposes. Such presentations may be videotaped or recorded and those videos or recordings may then be made available to the public via the internet (e.g., YouTube).</p>
+</div>
+<div id="public" class="section level4">
+<h4>Public</h4>
+<p>This content is available openly to anyone.</p>
+</div>
+</div>
+<div id="volume-level-access" class="section level3">
+<h3>Volume-level access</h3>
+<p>Entire Volume Shared<br />
+Volume Overview Shared<br />
+Private Volume</p>
+</div>
+<div id="access-levels-granted-to-an-authorized-investigators-volumes" class="section level3">
+<h3>Access levels granted to an Authorized Investigator’s Volumes</h3>
+<p>No Access<br />
+Read-only Access<br />
+Read-Write Access</p>
+</div>
+<div id="current-affiliates-and-requests-access-privileges" class="section level3">
+<h3>Current affiliates and requests (access privileges)</h3>
+<p>These terms describe how DB1.0 describes the granting of access to i) Databrary and ii) the sponsor’s own data.</p>
+<div id="grant-access-to-other-researchers-data-shared-on-databrary" class="section level4">
+<h4>Grant access to OTHER RESEARCHERS’ data shared on Databrary</h4>
+<div id="no-access" class="section level5">
+<h5>No access:</h5>
+<p>Cannot access shared Databrary data (except as granted through group/lab access)</p>
+</div>
+<div id="affiliate" class="section level5">
+<h5>Affiliate:</h5>
+<p>Can access all shared Databrary data</p>
+</div>
+</div>
+<div id="grant-access-to-all-of-my-own-data-including-private-volumes" class="section level4">
+<h4>Grant access to ALL of my own data (including private volumes)</h4>
+<div id="no-access-1" class="section level5">
+<h5>No access:</h5>
+<p>Cannot access my data (except as granted through Databrary authorization)</p>
+</div>
+<div id="read-only-access" class="section level5">
+<h5>Read-only access:</h5>
+<p>Full view access to all my group data</p>
+</div>
+<div id="readwrite-access" class="section level5">
+<h5>Read/write access:</h5>
+<p>Can access and edit (including delete privileges) all my group data</p>
+</div>
+<div id="manager" class="section level5">
+<h5>Manager:</h5>
+<p>Can create volumes and change volume access on all my group data</p>
+</div>
+</div>
+</div>
+</div>
+
+</br>
+<p>CC0 1.0 Universal License</p>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

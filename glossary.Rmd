@@ -1,8 +1,169 @@
 ---
 title: "glossary"
-author: "Andrea R Seisler"
-date: "4/20/2020"
 output: html_document
 ---
 
-## [Glossary](https://docs.google.com/document/d/1pP7L-fp31S8s3uufObLT_Na57OMf0znO1ugGuVfNieM/edit#heading=h.757eov12hzcx)
+## Glossary
+
+- All glossary items from [New Glossary](https://docs.google.com/document/d/1pP7L-fp31S8s3uufObLT_Na57OMf0znO1ugGuVfNieM/edit#heading=h.757eov12hzcx and [Current Glossary](https://www.databrary.org/resources/definitions.html) have been merged in this document
+- Questions:  
+  - Should volume be changed to project in reference to all DB 2.0 language?  
+  - Are we getting rid of the term Collaborator? 
+  - Do we need to explain that DB users added to a specific project by an authorized investigator that do not have a sponsor will be automatically added to the Supervised User list of that authorized investigator?
+
+### Entities (people or organizations)
+
+#### Supervised User (DB1.0 name = Affiliate)
+A person who conducts research under an Authorized Investigator's sponsorship and supervision and who has been granted access to Databrary by the Authorized Investigator. In most cases, Affiliates are students or research staff and are not eligible for Authorized Investigator status. (in the proposed Annex III)
+
+An individual, affiliated with an authorized investigator who operates under that Investigator's sponsorship and supervision. The access privileges of Affiliates are under the control of one or more authorized investigators.
+
+#### Authorized investigator
+An individual who has permission from an institution to conduct independent research, who has received authorization through their institution and from Databrary to view, download, and contribute Data.
+
+An employee of an institution who has the background and training in scientific and administrative oversight necessary to conduct and manage research. Institutions determine who may be eligible to conduct independent research, but this typically includes tenure-track faculty (Instructor through Professor, sometimes Emeritus), research or clinical faculty, and may include archivists, curators, and librarians. Research Associates, Research Assistants, and other staff are not considered to be independent investigators, and therefore are not typically granted permission to conduct independent research.
+
+####  Sponsor  
+An individual or institution that allows access to some Databrary resource to another individual or institution. For example, Rick Gilmore is sponsored by Penn State, and is also sponsored by Karen Adolph and Stacey Dusing. In turn, Rick sponsors Andrea Seisler, his undergrad RAs, a grad student, and some other collaborators.
+
+#### Investigators
+In a Volume, people who have read/write/share privileges. Investigators need not be Authorized Investigators; they can be Affiliates.
+
+#### Collaborator(s) 
+On DB1.0 a volume lists users who are not the volume’s owners under a Collaborators section. Functionally, Collaborators are granted access to a volume by a Volume Owner.
+
+#### Authorized Organizational Representative (AOR)
+A person granted authority by an Institution to sign the Databrary Access Agreement on behalf of the Institution and thereby bind the Institution to the terms of the Databary Access Agreement. (in the proposed Annex III)
+
+### Documentation (link to documents in this section?)
+
+#### Policy documents  
+
+##### Databrary Access Agreement  
+The Databrary Access Agreement between an Authorized Investigator and his or her Institution and New York University (NYU) on behalf of Databrary.   
+
+##### Annex I 
+
+##### Annex II
+
+##### Annex III
+
+##### Sharing Release Template   
+The documentation participants complete to log the Release Level they are granting permission for their data.   
+
+##### Databrary User Guide   
+The documentation of functionality instructions of Databrary.   
+
+### Data  
+
+#### De-identified data  
+Collections of information from which all identifiers have been removed or altered in such a way as to prevent the identification of individual persons.  
+
+#### Excerpts
+A still frame or a selection from a larger recording that illustrates a particular point or demonstrates a finding. Typically no more than a few seconds or minutes in length, substantially less than the full length of a recording.  
+
+Investigators or affiliates may select segments of a recording as an excerpt for informational or educational purposes if the depicted individuals have granted appropriate release level for using selected excerpts.  
+
+#### Identifiable data  
+Collections of information that might be used singly or in combination to determine the identity of research participants or other individuals depicted in recordings or data.  
+ 
+#### Non-identifiable data
+Collections of information that do not contain identifiable data.  
+
+#### Highlights  
+Assets or parts of an asset (video clip) highlighted by the investigator to feature on the volume page.
+
+
+#### Recordings  
+Video or audio recordings or still (photographic) images.  
+
+#### Materials  
+Files related to the volume such as stimuli.  
+
+### Project (DB1.0 = Volume)
+A collection of related data and materials.
+
+#### Sessions
+A session is a unit within a volume which consists of a set of videos and records. A session most often represents a single visit by a participant or set of particapants interacting together in a study.
+
+#### Spreadsheet  
+A collection of sessions and materials folders that contain data files like videos, coding spreadsheets, and documents. 
+
+Collections of one or more files (assets) are organized into slots, and the slots have system-wide unique integer IDs.
+
+In addition, the spreadsheet can contain information about the participants, the tasks, the settings, or other user-defined information about data collected. Information about the participants, tasks, settings are organized into arrays called measures.
+
+The UI represents session and materials information as a spreadsheet, and enables the user to download the participant-, task-, and setting data in a tidy, rectangular CSV that can be easily imported into a spreadsheet application.
+
+#### Measure  
+
+#### Asset  
+A file (image, audio or video recording, or document) that is associated with a session or materials folder (in a slot). Assets have system-wide unique integer IDs.  
+
+#### Segment  
+A sample of time that marks a portion of an audio or video recording. The entire recording may be selected or a portion defined by separate start and end times (in milliseconds) measured from the start of the session.  
+
+#### Keywords  
+Investigator contributed terms or keywords that can be attached to a volume, a session, or a record or video within a session. Only owners of a volume can add Keywords to that volume. For example, these might be the keywords that were also used for a published article related to the volume.  
+
+#### Tags
+Community contributed terms or keywords that can be attached to a volume, a session, or a record or video within a session. Tags help users to find content of interest.  
+
+### Release Levels  
+
+#### Unknown   
+Consent missing or not obtained. This content is not shared and is restricted to collaborators. 
+
+#### Private    
+This content is not shared and is restricted to collaborators.   
+
+#### Authorized Users    
+This content is restricted to authorized Databrary users and may not be redistributed in any form.
+
+#### Learning Audiences	     
+This content is restricted to authorized Databrary users, who may use clips or images from it in presentations for informational or educational purposes. Such presentations may be videotaped or recorded and those videos or recordings may then be made available to the public via the internet (e.g., YouTube).
+
+#### Public	   
+This content is available openly to anyone.   
+
+### Volume-level access 
+Entire Volume Shared  
+Volume Overview Shared  
+Private Volume  
+
+### Access levels granted to an Authorized Investigator’s Volumes  
+No Access  
+Read-only Access  
+Read-Write Access  
+
+### Current affiliates and requests (access privileges)
+These terms describe how DB1.0 describes the granting of access to i) Databrary and ii) the sponsor’s own data.  
+
+#### Grant access to OTHER RESEARCHERS' data shared on Databrary  
+
+##### No access:   
+Cannot access shared Databrary data (except as granted through group/lab access)  
+
+##### Affiliate:  
+Can access all shared Databrary data  
+
+#### Grant access to ALL of my own data (including private volumes)  
+
+##### No access:  
+Cannot access my data (except as granted through Databrary authorization)  
+
+##### Read-only access:  
+Full view access to all my group data  
+
+##### Read/write access:     
+Can access and edit (including delete privileges) all my group data    
+
+##### Manager:    
+
+Can create volumes and change volume access on all my group data    
+
+
+
+
+
+    
