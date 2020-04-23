@@ -16,9 +16,9 @@ output: html_document
 
 ### Supervised User (DB1.0 name = Affiliate)
 
-A person who conducts research under an Authorized Investigator's sponsorship and supervision and who has been granted access to Databrary by the Authorized Investigator. In most cases, Affiliates are students or research staff and are not eligible for Authorized Investigator status. (in the proposed Annex III)
+A person who conducts research under an Authorized Investigators sponsorship and supervision and who has been granted access to Databrary by the Authorized Investigator. In most cases, Supervised Users are students or research staff and are not eligible for Authorized Investigator status. (in the proposed Annex III)
 
-An individual, affiliated with an authorized investigator who operates under that Investigator's sponsorship and supervision. The access privileges of Affiliates are under the control of one or more authorized investigators.
+The access privileges of Supervised Users are under the control of one or more Authorized Investigators.
 
 
 ### Authorized investigator

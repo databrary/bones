@@ -65,6 +65,10 @@ This page provides a user access to resources to learn about Databrary or get us
 ```
 
 
+```{r, child="dataSecurity.Rmd"}
+```
+
+
 ```{r, child="dataSharingManifesto.Rmd"}
 ```
 
