@@ -5,20 +5,20 @@ date: "4/20/2020"
 output: html_document
 ---
 
-## for Supervised Users  
+# for Supervised Users  
 
 A Supervised Users is a person who conducts research under an Authorized Investigators sponsorship and supervision and who has been granted access to Databrary by the Authorized Investigator. In most cases, Supervised Users are students or research staff and are not eligible for Authorized Investigator status. (in the proposed Annex III)
 
 The access privileges of Supervised Users are under the control of one or more Authorized Investigators.
 
-### How do I request access from my Supervising Professor?    
+## How do I request access from my Supervising Professor?    
 Add Step by Step Instructions  
 
-### I want to access a specific dataset on Databrary, How do I do this?  
+## I want to access a specific dataset on Databrary, How do I do this?  
 
 You must be sponsored by an Authorized Invstigator and they need to grant you access to ALL Shared Databrary Data.
 
-### What are my rights and responsibilities?
+## What are my rights and responsibilities?
 
 As a Supervised User, you must abide by the same rights and responsibilities as Authorized Investigators. 
 

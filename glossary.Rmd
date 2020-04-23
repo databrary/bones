@@ -3,6 +3,7 @@ title: "Glossary"
 output: html_document
 ---
 
+# Glossary  
 
 - All glossary items from [New Glossary](https://docs.google.com/document/d/1pP7L-fp31S8s3uufObLT_Na57OMf0znO1ugGuVfNieM/edit#heading=h.757eov12hzcx) and [Current Glossary](https://www.databrary.org/resources/definitions.html) have been merged in this document
 

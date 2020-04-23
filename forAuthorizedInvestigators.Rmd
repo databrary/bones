@@ -5,17 +5,21 @@ date: "4/20/2020"
 output: html_document
 ---
 
-## for Authorized Investigators
+# Information for Authorized Investigators
 
-### How do I add a supervised user to all of my group/lab data?  
-### How do I add a supervised user to all shared Databrary data?  
-### How do I add a user to a specific project  
-### What happens if I leave my institution and no longer have Authorized Investigator Status?  
-### What if I my institution requires me to submit an IRB just to access?    
+## How do I add a supervised user to all of my group/lab data?  
+
+## How do I add a supervised user to all shared Databrary data?  
+
+## How do I add a user to a specific project  
+
+## What happens if I leave my institution and no longer have Authorized Investigator Status?  
+
+## What if I my institution requires me to submit an IRB just to access?    
 
 Here is some language that should help you.  
 
-#### Recommended Abstract language  
+### Recommended Abstract language  
 
 The purpose of this application is to access the Databrary
 (https://www.databrary.org/about/about-databrary.html), which is a digital data library specialized
@@ -24,19 +28,19 @@ I do not currently have data to contribute to the library; however, I would like
 contents in order to browse the available data and potentially develop a research project. Once I have
 a research proposal, I will submit a new protocol for IRB determination.  
 
-#### Access to Identifiers  
+### Access to Identifiers  
 
 I will have access to  elements of dates (except for year) for dates directly related to an individual, including birth date,  Biometric identifiers, including finger and voice prints, and
  Full face photographic images and any comparable images.  
  
-#### Purpose of accessing Databrary  
+### Purpose of accessing Databrary  
 The purpose of this application is to access the Databrary
 (https://www.databrary.org/about/about-databrary.html), which is a digital data library specialized
 for storing, managing, preserving, analyzing, and sharing video. I would like to have access to its
 contents in order to browse the data and potentially develop a research idea to submit for IRB
 approval in a separate application.
 
-### When do I need to submit to the IRB to use secondary data from Databrary?  
+## When do I need to submit to the IRB to use secondary data from Databrary?  
 
 You will need to submit to the IRB for secondary data use when you move from the preparatory to  research to the research phase. 
 

@@ -5,8 +5,9 @@ date: "4/20/2020"
 output: html_document
 ---
 
-## for Participants Choosing to Share Data
-### Participant Bill of Rights
+# for Participants Choosing to Share Data
+
+## Participant Bill of Rights
 
 As a person who shares information with Databrary, you have the right to:
 

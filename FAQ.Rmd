@@ -3,7 +3,7 @@ title: "FAQ"
 output: html_document
 ---
 
-## [FAQ](https://www.databrary.org/resources/faq.html) reorganize?
+# [FAQ](https://www.databrary.org/resources/faq.html) reorganize?
 
 - what if an authorized investigator is leaving their institution for another institution but should still retain authorized investigator status? 
 -  level of access for sessions vs. level of access for each specific file

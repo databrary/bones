@@ -3,6 +3,8 @@ title: "Data Security Best Practices"
 output: html_document
 ---
 
+# Data Security and Best Practices  
+
 Databrary requires all Databrary Authorized Investigators and Supervised Users to embrace best practices for data security.
 
 ## Protect Confidentiality  

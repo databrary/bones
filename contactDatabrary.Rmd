@@ -5,7 +5,7 @@ date: "4/20/2020"
 output: html_document
 ---
 
-## Contact Databrary
+# Contact Databrary
 
 - for general questions email contact@databrary.org
 - for questions regarding your authorization email authorize@databrary.org
