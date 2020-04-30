@@ -44,5 +44,21 @@ approval in a separate application.
 
 You will need to submit to the IRB for secondary data use when you move from the preparatory to  research to the research phase. 
 
-When you move from exploring the feasibility of a coding scheme to deciding to apply it systematically to a set of videos, that’s the transition point. That said, you must still protect the data during pre-research or research planning as you normally would for these sorts of data. That’s why we have the access agreement.
+When you move from exploring the feasibility of a coding scheme to deciding to apply it systematically to a set of videos, that is when you would need to submit to the IRB. You must still protect the data during pre-research or research planning as you normally would for these sorts of data as outlined in the Databrary Access Agreement.
+
+Keep in mind the following:
+
+Is it Research?  
+
+Research is a "systematic investigation, including research development, testing and evaluation, designed to develop or contribute to generalizable knowledge" [(45 CFR 46.102(l))](https://www.ecfr.gov/cgi-bin/retrieveECFR?gp=&SID=83cd09e1c0f5c6937cd9d7513160fc3f&pitd=20180719&n=pt45.1.46&r=PART&ty=HTML#se45.1.46_1102).
+
+Is it a Human Subject?  
+
+A human subject is “a living individual about whom an investigator (whether professional or student) conducting research:
+
+(i) obtains information or biospecimens through intervention or interaction with the individual, and uses, studies, or analyzes the information or biospecimens; or (ii) obtains, uses, studies, analyzes, or generates identifiable private information or identifiable biospecimens” [(45 CFR 46.102(e))](https://www.ecfr.gov/cgi-bin/retrieveECFR?gp=&SID=83cd09e1c0f5c6937cd9d7513160fc3f&pitd=20180719&n=pt45.1.46&r=PART&ty=HTML#se45.1.46_1102).
+
+When you can answer YES to these two questions you need to submit to your IRB. If you are not sure, contact your IRB and they can help you.
+
+
     

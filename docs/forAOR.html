@@ -9,10 +9,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Andrea R Seisler" />
 
 
-<title>for AOR</title>
+<title>forAOR.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -250,6 +252,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -257,6 +322,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -273,8 +348,23 @@ $(document).ready(function () {
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">Databrary</a>
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Databrary
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="dashboardAuth.html">&lt;LoggedIn state&gt; Authorized user</a>
+    </li>
+    <li>
+      <a href="dashboardNoAuth.html">&lt;LoggedIn state&gt; Unauthorized user</a>
+    </li>
+    <li>
+      <a href="index.html">&lt;LoggedOut state&gt;</a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="search.html">Search</a>
@@ -293,7 +383,7 @@ $(document).ready(function () {
       <a href="aboutDatabrary.html">Databrary</a>
     </li>
     <li>
-      <a href="aboutProject.html">Project</a>
+      <a href="aboutProject.html">Project - confusing term</a>
     </li>
     <li>
       <a href="aboutTeam.html">Team</a>
@@ -323,23 +413,8 @@ $(document).ready(function () {
         <li>
   <a href="notifications.html">Notifications</a>
 </li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Avatar
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="settings.html">Account Settings</a>
-    </li>
-    <li>
-      <a href="landingPageAuth.html">My Projects</a>
-    </li>
-    <li>
-      <a href="logout.html">Logout</a>
-    </li>
-  </ul>
+<li>
+  <a href="avatarMenu.html">Avatar</a>
 </li>
 <li>
   <a href="login.html">Login</a>
@@ -362,39 +437,55 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">for AOR</h1>
-<h4 class="author">Andrea R Seisler</h4>
-<h4 class="date">4/17/2020</h4>
 
 </div>
 
 
-<div id="for-institution-authorized-organizational-representatives" class="section level2">
-<h2>for Institution Authorized Organizational Representatives</h2>
-<div id="databrary-access-agreement" class="section level3">
-<h3>Databrary Access Agreement</h3>
+<div id="information-for-institution-authorized-organizational-representatives" class="section level1">
+<h1><span class="header-section-number">1</span> Information for Institution Authorized Organizational Representatives</h1>
+<p>Researchers seeking authorization to access Databrary must have their Databrary Access Agreement approved and signed by an authorized organizational representative, or AOR, of their institution. Once an institution has signed the agreement, the individual becomes an authorized investigator.</p>
+<div id="what-is-an-authorized-organizational-representative" class="section level2">
+<h2><span class="header-section-number">1.1</span> What is an Authorized Organizational Representative?</h2>
+<ul>
+<li>put link to Glossary definition here</li>
+</ul>
 </div>
-<div id="statement-of-rights-and-responsibilities---annex-i" class="section level3">
-<h3>Statement of Rights and Responsibilities - Annex I</h3>
+<div id="what-types-of-institutions-may-participate-in-databrary" class="section level2">
+<h2><span class="header-section-number">1.2</span> What type(s) of Institutions may participate in Databrary?</h2>
 </div>
-<div id="additional-authorized-investigators---annex-ii" class="section level3">
-<h3>Additional Authorized Investigators - Annex II</h3>
+<div id="overview-of-the-databrary-access-agreement" class="section level2">
+<h2><span class="header-section-number">1.3</span> Overview of the Databrary Access Agreement</h2>
+<p>The Databrary Access Agreement grants user and contributor privileges to all shared data in Databrary. Once the agreement is finalized, authorized investigator can access identifiable data that is shared. Below is a summary, but all details are located in documents located in the <a href="">Templates</a> and <a href="">Policies</a> sections</p>
+<p>Approval for research involving human subjects is <strong>not</strong> required by Databrary in order to become an authorized investigator.</p>
+<p>Institutions should remember that authorized investigators agree to seek whatever approvals are required by their institution for their use of Databrary. Typically, contributing data and conducting research using Databrary resources require institutional approval for research involving human subjects. However, many uses of Databrary are for pre-research or non-research purposes (e.g. browsing data for ideas, getting video clips for teaching or talks, learning about procedures or methods) and do not typically require institutional approval for research involving human subjects.</p>
+<p>When Authorizing Investigators The institution confirms the eligibility of its investigators by:</p>
+<p>Verifying that authorized investigators are eligible to conduct independent research at the institution. Validating that authorized investigators have research ethics training that meets the institution’s standards. The institution:</p>
+<p>Maintains an ethics or institutional review board that reviews and approves research involving human subjects. Grants authorized investigators the responsibility to choose and manage affiliates who meet Databrary’s qualifications and who agree to follow Databrary’s ethical principles. The institution holds authorized investigators responsible for the conduct of affiliates they select. Accepts responsibility for its authorized investigator(s) actions related to the use of Databrary. Data Contribution and Use The institution:</p>
+<p>Asserts that it has the rights to share with Databrary any data the authorized investigator contributes; no other entity or individual has ownership rights that prevent the authorized investigator from contributing data to Databrary. Agrees to allow use of the data exclusively for the purpose of scientific research or education under the auspices of an academic, research, government, health, or commercial entity (but in the last case, solely for non-commercial purposes unless allowed under the terms of a separate agreement). Agrees not to sell or trade data or use it for other commercial purposes. Grants each authorized investigator authority to decide when and with whom the authorized investigator wishes to share data, and the institution holds the authorized investigator responsible for the use of shared data. Agrees to follow all relevant national, state, and local laws and regulations that pertain to the use of research data. Confidentiality and Ethics The institution agrees to inform Databrary of any suspected violation of confidentiality or ethics. If Databrary determines that an authorized investigator at the institution has violated the terms of the Databrary Access Agreement or other Databrary policies, Databrary may remove the data in question and/or deny the authorized investigator or the institution access to Databrary, temporarily or permanently.</p>
+<p>Any violation may be reported to the official at the institution charged with handling violations of research ethics. The Institution may request information from Databrary about the authorized investigator’s use or their Affiliate’s use of the library.</p>
+<p>If denied access to Databrary, authorized investigators or the institution may request a review.</p>
+<p>Each party shall be responsible for its negligent acts or omissions and the negligent acts or omissions of its employees, officers, or director’s, to the extent allowed by law.</p>
+<div id="templates" class="section level3">
+<h3><span class="header-section-number">1.3.1</span> Templates</h3>
+<ul>
+<li><p>Databrary Access Agreement</p></li>
+<li><p>Statement of Rights and Responsibilities - Annex I</p></li>
+<li><p>Additional Authorized Investigators - Annex II</p></li>
+<li><p>Databrary Access Guide - Annex III</p></li>
+</ul>
 </div>
-<div id="databrary-access-guide---annex-iii" class="section level3">
-<h3>Databrary Access Guide - Annex III</h3>
-</div>
-<div id="terms-of-use" class="section level3">
-<h3>Terms of Use</h3>
-</div>
-<div id="privacy-policy" class="section level3">
-<h3>Privacy Policy</h3>
-</div>
-<div id="data-security" class="section level3">
-<h3>Data Security</h3>
+<div id="policies" class="section level3">
+<h3><span class="header-section-number">1.3.2</span> Policies</h3>
+<ul>
+<li><p>Terms of Use</p></li>
+<li><p>Privacy Policy</p></li>
+<li><p>Data Security</p></li>
+</ul>
 <p>Data and metadata stored in Databrary are subject to the security policies and best practices implemented by NYU. For more information about these policies and services, please visit NYU ITS Computer &amp; Network Security at <a href="http://www.nyu.edu/its/security/" class="uri">http://www.nyu.edu/its/security/</a>.</p>
+<ul>
+<li><a href="https://www.databrary.org/resources/guide/institutions.html">User Guide - for institutions</a></li>
+</ul>
 </div>
-<div id="user-guide---for-institutions" class="section level3">
-<h3><a href="https://www.databrary.org/resources/guide/institutions.html">User Guide - for institutions</a></h3>
 </div>
 </div>
 
@@ -402,6 +493,8 @@ $(document).ready(function () {
 <p>CC0 1.0 Universal License</p>
 
 
+</div>
+</div>
 
 </div>
 
@@ -434,6 +527,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

@@ -1,8 +1,10 @@
 ---
 title: "Contact Databrary"
 author: "Andrea R Seisler"
-date: "4/20/2020"
-output: html_document
+date:  "`r Sys.time()`"
+html_document:
+    toc: true
+    toc_depth: 3
 ---
 
 # Contact Databrary

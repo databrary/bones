@@ -1,8 +1,10 @@
 ---
 title: "forIRB"
 author: "Andrea R Seisler"
-date: "4/17/2020"
-output: html_document
+date:  "`r Sys.time()`"
+html_document:
+    toc: true
+    toc_depth: 3
 ---
 
 # Information for IRB 
@@ -36,7 +38,7 @@ Some researchers view IRB concerns as an impediment to data sharing, even those 
 ### Types of Data Sharing
 Different types and levels of data sharing are associated with different ethical concerns. It is useful to distinguish among different use cases, and the types of concerns raised around data sharing in developmental science.
 
-### Data reuse.
+### Data reuse
 Using data shared by others ("secondary use") usually involves low risk to participants because the new study does not involve contact with the participants. However, the level of risk depends on the nature of the data, whether the data are identifiable or otherwise sensitive, and the sort of permission that participants initially granted for sharing. Reuse of existing shared data is common practice, so most IRBs have established procedures for determining the level of risk posed by a particular project involving secondary use. For example, many IRBs deem exempt from review projects that involve the secondary use of non-sensitive, de-identified data.
 
 ### Video data and other data that might contain identifiers.
@@ -48,7 +50,7 @@ Choices about how PIs should share data and who should have access are complicat
 ## Solutions
 It is critical to seek explicit permission from participants to share data and to be transparent about the uses of those data. This honors participants' autonomy by ensuring they (and/or their caregivers) fully understand the risks of sharing the data they contribute – as well as the potential benefits to science and the community at large that they are granting by sharing.
 
-###Capitalize on existing resources.
+### Capitalize on existing resources.
 Developmental science has a long history of data sharing, and researchers can learn best practices from existing resources. In developing institution- or project-specific language for consents and data sharing permissions, PIs and IRBs can draw on the collective experience of experts and data repositories that have experience sharing data from vulnerable populations, such as children. Sources that provide valuable guidance about how to seek informed consent and data sharing permission, including template language, include:
 
   - [Databrary](https://www.databrary.org/resources/policies.html);
