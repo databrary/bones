@@ -337,8 +337,23 @@ $(document).ready(function () {
         <li>
   <a href="notifications.html">Notifications</a>
 </li>
-<li>
-  <a href="avatarMenu.html">Avatar</a>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Avatar
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="projects.html">Dashboard-project</a>
+    </li>
+    <li>
+      <a href="people.html">Dashboard-people</a>
+    </li>
+    <li>
+      <a href="project-page.html">Project page</a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="login.html">Login</a>
@@ -366,7 +381,30 @@ $(document).ready(function () {
 </div>
 
 
+<div id="section" class="section level2 tabset tabset-fade">
+<h2></h2>
+<p>Basic appearance and dropdown behaviors</p>
+<div id="basic" class="section level3">
+<h3>Basic</h3>
 <p><img src="img/people.png" /><!-- --></p>
+</div>
+<div id="dropdown" class="section level3">
+<h3>Dropdown</h3>
+<p><img src="img/people-dropdown.png" /><!-- --></p>
+</div>
+<div id="filter-and-sort-explained" class="section level3">
+<h3>Filter and sort explained</h3>
+<p>Filtering will show a subset of all (default will be to show all)</p>
+<ul>
+<li>User type: Authorized Investigators or Supervised Users</li>
+<li>Access: Databrary-wide or restricted</li>
+<li>Projects: Lists projects and project groups that belong to user (up to 10)</li>
+</ul>
+</div>
+</div>
+<div id="section-1" class="section level2">
+<h2></h2>
+</div>
 <div id="purpose" class="section level1">
 <h1>Purpose</h1>
 <p>This page presents a gallery of users on Databrary.</p>

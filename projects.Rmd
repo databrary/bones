@@ -1,0 +1,52 @@
+---
+title: "projects"
+---
+
+## {.tabset .tabset-fade}
+Basic appearance and dropdown behaviors
+
+### Basic
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/project.png")
+```
+
+### Filter and sort explained
+
+Filtering will show a subset of all (default will be to show all)
+
+- Sharing: Public, overview, private
+- Permissions: Admin/manager, editor, or viewer
+- People: Lists all people and groups on user's projects (up to 10)
+- Ype: Single project or project group
+
+
+##
+
+# Purpose
+
+This page presents a gallery of users on Databrary.
+
+See <https://nyu.databrary.org/search?volume=false&f.party_authorization=4&f.party_is_institution=false>
+
+# Routes
+
+## API
+
+- databrary.org/people
+- databrary.org/search/people
+
+## From
+
+## To
+
+```{r child = 'headerLinks.Rmd'}
+```
+
+# Actions
+
+- Browse
+- Search for/filter
+
+# Comments
+

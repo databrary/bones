@@ -1,0 +1,99 @@
+---
+title: "project-page"
+---
+
+
+## {.tabset .tabset-fade}
+Basic appearance and mouse-over behaviors
+
+### Basic
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/project.png")
+```
+
+### Edit title
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/project-edit-title.png")
+```
+
+### Add/remove people
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/project-add-remove-people.png")
+```
+
+### Hover-users
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/project-hover-users.png")
+```
+
+### Click-permissions-1
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/project-hover-permissions-1.png")
+```
+
+### Click-permissions-2
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/project-hover-permissions-2.png")
+```
+
+### Permissions explained
+
+- It's a toggle, not mouse-over
+- Click on permission to show users with chosen permission
+- Click on users to assign or remove chosen permission
+- Click on permission again to save
+- Can remove "view/download files" this since all users in a project should be able to do both
+
+### Survey
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/project-hover-survey.png")
+```
+
+### Upload
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/project-hover-upload.png")
+```
+
+### Upload by measure
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/project-hover-upload-by-measure.png")
+```
+
+##
+
+# Purpose
+
+This page represents a typical project page on Databrary.
+
+See <https://nyu.databrary.org/volume/27>
+
+# Routes
+
+## API
+
+- databrary.org/project
+- databrary.org/search/people
+
+## From
+
+## To
+
+```{r child = 'headerLinks.Rmd'}
+```
+
+# Actions
+
+- Browse
+- Search for/filter
+
+# Comments
+

@@ -2,9 +2,31 @@
 title: "people"
 ---
 
+## {.tabset .tabset-fade}
+Basic appearance and dropdown behaviors
+
+### Basic
+
 ```{r, echo=FALSE}
 knitr::include_graphics("img/people.png")
 ```
+
+### Dropdown
+
+```{r, echo=FALSE}
+knitr::include_graphics("img/people-dropdown.png")
+```
+
+### Filter and sort explained
+
+Filtering will show a subset of all (default will be to show all)
+
+- User type: Authorized Investigators or Supervised Users 
+- Access: Databrary-wide or restricted
+- Projects: Lists projects and project groups that belong to user (up to 10)
+
+
+##
 
 # Purpose
 
