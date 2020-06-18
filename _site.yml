@@ -34,7 +34,13 @@ navbar:
     - text: "Notifications"
       href: notifications.html
     - text: "Avatar"
-      href: avatarMenu.html
+      menu:
+        - text: "Dashboard-project"
+          href: projects.html
+        - text: "Dashboard-people"
+          href: people.html
+        - text: "Project page"
+          href: project-page.html
     - text: "Login"
       href: login.html
     - text: "Register"
