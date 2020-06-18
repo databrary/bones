@@ -8,7 +8,7 @@ Basic appearance and dropdown behaviors
 ### Basic
 
 ```{r, echo=FALSE}
-knitr::include_graphics("img/project.png")
+knitr::include_graphics("img/projects.png")
 ```
 
 ### Filter and sort explained
