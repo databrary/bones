@@ -10,10 +10,6 @@ navbar:
           href: dashboardNoAuth.html
         - text: "<LoggedOut state>"
           href: index.html
-    - text: "Search"
-      href: search.html
-    - text: "News"
-      href: news.html
     - text: "About"
       menu:
         - text: "Databrary"
@@ -22,13 +18,7 @@ navbar:
           href: aboutProject.html
         - text: "Team"
           href: aboutTeam.html
-    - text: "Community"
-      menu:
-        - text: "People"
-          href: people.html
-        - text: "Organizations"
-          href: orgs.html
-    - text: "Support"
+    - text: "Resources"
       href: support.html
   right:
     - text: "Notifications"

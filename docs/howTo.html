@@ -9,11 +9,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Andrea R Seisler" />
 
 
 <title>HowTo</title>
 
+<script src="site_libs/header-attrs-2.2/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -291,12 +291,6 @@ $(document).ready(function () {
     </li>
   </ul>
 </li>
-<li>
-  <a href="search.html">Search</a>
-</li>
-<li>
-  <a href="news.html">News</a>
-</li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
     About
@@ -315,31 +309,31 @@ $(document).ready(function () {
     </li>
   </ul>
 </li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Community
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="people.html">People</a>
-    </li>
-    <li>
-      <a href="orgs.html">Organizations</a>
-    </li>
-  </ul>
-</li>
 <li>
-  <a href="support.html">Support</a>
+  <a href="support.html">Resources</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="notifications.html">Notifications</a>
 </li>
-<li>
-  <a href="avatarMenu.html">Avatar</a>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Avatar
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="projects.html">Dashboard-project</a>
+    </li>
+    <li>
+      <a href="people.html">Dashboard-people</a>
+    </li>
+    <li>
+      <a href="project-page.html">Project page</a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="login.html">Login</a>
@@ -363,24 +357,22 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">HowTo</h1>
-<h4 class="author">Andrea R Seisler</h4>
-<h4 class="date">Sys.Date()</h4>
 
 </div>
 
 
-<div id="how-to" class="section level2">
-<h2>How to</h2>
-<div id="get-authorized" class="section level3">
-<h3>Get Authorized</h3>
+<div id="how-to" class="section level1">
+<h1>How to</h1>
+<div id="get-authorized" class="section level2">
+<h2>Get Authorized</h2>
 <ul>
 <li><p>get authorized as an Authorized Investigator</p></li>
 <li><p>have a supervised user create an account and request access from their Sponsoring Authorized Investigator</p></li>
 <li><p>can an Authorized Investigator add Supervised Users</p></li>
 </ul>
 </div>
-<div id="createedit-projects" class="section level3">
-<h3>Create/Edit Projects</h3>
+<div id="createedit-projects" class="section level2">
+<h2>Create/Edit Projects</h2>
 <ul>
 <li>create a new project</li>
 <li>update the citation of my project</li>
@@ -389,11 +381,31 @@ $(document).ready(function () {
 <li>What file types can be uploaded? (<a href="https://nyu.databrary.org/asset/formats" class="uri">https://nyu.databrary.org/asset/formats</a>)</li>
 </ul>
 </div>
-<div id="document-permission-from-participants" class="section level3">
-<h3>document permission from participants</h3>
+<div id="document-permission-from-participants" class="section level2">
+<h2>Document permission from participants</h2>
+<div id="consenting-to-participate-is-separate-from-releasing-data-for-sharing" class="section level3">
+<h3>Consenting to participate is separate from releasing data for sharing</h3>
+<p>Researchers should not worry that participants will decide not to enter a study because they are being asked to share their information. Consenting to participate in a study is an entirely separate decision for participants from giving permission to share their data. They can agree to participate in the study and choose to not release their data for sharing.</p>
+<p>Because of this, we recommend that researchers introduce the Databrary Release after the recording–such as at the end of a session, visit, or longitudinal study. By asking participants about sharing with Databrary after the recording is finished, participants will know what was done during the session and have a clearer understanding of what they would be agreeing to share. Even this is entirely adaptable, as there may be other reasons that asking at the end is undesirable or infeasible.</p>
+<p>The following considerations may apply when deciding when to introduce the Release:</p>
 <ul>
-<li>insert link to participant data sharing release form</li>
+<li>If the researcher would like to give participants the option to select which part or parts of the session to share, the form could be given at the end of each section. Alternatively, the form could be adapted to allow participants to answer about each section separately at the end of the entire session.<br />
+</li>
+<li>If there are activities or data of a sensitive nature in some portion of the session, the researcher may choose not to share that portion of the sessions. In this case, researchers may prefer to adapt the form to indicate that the sensitive portion will not be shared.</li>
+<li>The data contributor can always choose not to share certain parts of the video even if the participant agreed to share them.</li>
+<li>There may be some cases where it is simpler or necessary to offer the Databrary Release at the beginning of the study, such as in in classroom recordings or other group settings.</li>
 </ul>
+<p>Databrary does <strong>not</strong> require contributors to have used the Databrary Release, or that researchers ask about sharing at the end.</p>
+</div>
+<div id="correlating-with-release-levels" class="section level3">
+<h3>Correlating with release levels</h3>
+<p>The template is designed to help researchers standardize the language used and know exactly which release level to tag each session with based on their participants’ decisions.</p>
+<p>No matter what form or language is used to obtain releases for Databrary sharing, contributors must determine which release level each participant agreed to and tag each session (or portion of a session) with the correct level of sharing.</p>
+</div>
+<div id="samples-and-examples" class="section level3">
+<h3>Samples and Examples</h3>
+<p>Sample participant release script (upload) Example videos of the release process (upload)</p>
+</div>
 </div>
 </div>
 

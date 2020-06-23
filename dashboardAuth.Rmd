@@ -5,17 +5,10 @@ subtitle: "*dashboard*"
 
 Dashboard overview
 ```{r, echo=FALSE}
-knitr::include_graphics("img/dashboard_a_regular.png")
+knitr::include_graphics("img/dashboard_a_regular3.png")
 ```
 
 ---
-
-<!-- 
-Dashboard linkages
-```{r, echo=FALSE}
-knitr::include_graphics("img/dashboard_a_regular_modal.png")
-```
--->
 
 # Purpose
 

@@ -3,7 +3,7 @@ title: "thisProjectPage"
 ---
 
 ```{r, echo=FALSE}
-knitr::include_graphics("img/projectPage.png")
+knitr::include_graphics("img/project.png")
 ```
 
 # Purpose
